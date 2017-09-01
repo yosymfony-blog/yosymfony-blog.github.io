@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Spress v2.2.0">
+
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+
+    <title>¿Son seguras las dependencias de tu aplicación Symfony2? - Yo! Symfony Blog</title>
+
+    <link rel="canonical" href="/son-seguras-las-dependencias-de-tu-aplicacion-symfony2">
+
+    <link rel="alternate" type="application/rss+xml" title="Yo! Symfony Blog Feed" href="/feed.xml" />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/clean-blog.css">
+
+    <!-- Highlight js CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Yo! Symfony Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" >
+             <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://yosymfony.com">
+        Web</a>
+    </li>
+    </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    
+
+
+<!-- Post Header -->
+<header class="intro-header" style="background-color: #aaa">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>¿Son seguras las dependencias de tu aplicación Symfony2?</h1>
+                                        <span class="meta">Posted by victor on February 19th, 2013</span>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<img class="alignnone size-full wp-image-181" style="margin: 5px;" alt="Sensio-labs-logo" src="/assets/wp-content/uploads/2013/02/sensio-labs-logo.png" width="147" height="40" />Hoy <strong>Fabien Potencier</strong>, creador de Symfony, ha anunciado en su <a href="http://fabien.potencier.org/article/67/don-t-use-php-libraries-with-known-security-issues" target="_blank">blog</a> que <a href="http://sensiolabs.com/en" target="_blank">Sensio Labs</a> pone a nuestro alcance una <a title="Comprueba las vulnerabilidades de tu aplicación Symfony2" href="https://security.sensiolabs.org/" target="_blank">herramienta</a> para comprobar las <strong>vulnerabilidades existentes en las dependencias de nuestros proyectos Symfony o Zend framework</strong> siempre que usemos <a title="PHP Composer" href="http://getcomposer.org/" target="_blank"><strong>Composer</strong></a> como gestor de dependencias. La iniciativa es realmente buena porque a estas alturas de partido, Symfony se ha masificado y existen <a title="Case studies [eng] - Symfony" href="http://symfony.com/blog/category/case-studies" target="_blank">grandes proyectos cuyo funcionamiento depende de que el framework y sus bundles</a> trabajen de forma correcta y segura. Además Fabien asegura que se están mejorando la identificación de los bug para cumplir con el <em>Common Vulnerabilities and exposures</em> o <a href="http://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=symfony" target="_blank">CVE</a>. Todo esto es otro incentivo más para usar Symfony y Composer, una estupenda aplicación que se encarga de  obtener las dependencias que necesitemos en nuestro proyecto de forma transparente, con solo lanzar un comando. No estaría nada mal que PHP tuviese algún sistema estándar de este tipo para  comprobar si las librerías/frameworks/aplicaciónes son seguras y están a la última.
+
+<!--more-->
+<h3>¿Cómo funciona el <em>Security Advisories Checker</em>?</h3>
+Tienes tres formas de usarlo,  una de ellas es mediante una API que te permitirá usarla en sistemas de Integración Contínua:
+<ul>
+	<li><span style="line-height: 13px;"><strong>Web</strong> de <a href="https://security.sensiolabs.org/" target="_blank">security.sensiolabs.org</a>: Accedes a la web y subes tu fichero <code class="prettyprint">composer.lock</code>.</span></li>
+	<li>Usar la <strong>aplicación de consola</strong> <a title="Aplicación Security Checker - Symfony2" href="https://github.com/sensiolabs/security-checker" target="_blank">Security Checker</a>:
+<code class="prettyprint">$ php security-checker security:check /tu-directorio/composer.lock</code></li>
+	<li><a title="Security Checker  API - Symfony2" href="https://security.sensiolabs.org/api" target="_blank"><strong>API</strong> del servicio</a>.</li>
+</ul>
+&nbsp;
+
+Eco de la noticia:<strong> <a href="http://fabien.potencier.org/article/67/don-t-use-php-libraries-with-known-security-issues" target="_blank">Fabien Potencier</a> | <a href="http://www.symfony.es/noticias/2013/02/19/nueva-herramienta-para-descubrir-problemas-de-seguridad-en-proyectos-php" target="_blank">Symfony.es</a></strong>
+
+                <section class="post-meta">
+                                        <ul class="list-unstyled">
+                                                    <li>
+                                <i class="fa fa-tags"></i>
+                                                                    <a href="/./tags/bug">bug</a>,                                                                    <a href="/./tags/seguridad">seguridad</a>                                                            </li>
+                                                                            <li>
+                                <i class="fa fa-folder"></i>
+                                                                    <a href="/./categories/php">php</a>,                                                                    <a href="/./categories/symfony">symfony</a>                                                            </li>
+                                            </ul>
+                                    </section>
+
+                <hr>
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                        <li>
+                        <a href="https://twitter.com/yosymfony">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                                                                <li>
+                        <a href="https://github.com/yosymfony">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                                                                                                    </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Yo! Symfony 2017.
+                    Powered by <a href="http://spress.yosymfony.com/">Spress</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/assets/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/clean-blog.min.js"></script>
+
+<!-- Highlight JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+<!-- Twitter -->
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+    
+        
+</body>
+
+</html>

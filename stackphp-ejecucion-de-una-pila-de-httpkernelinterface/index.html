@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Spress v2.2.0">
+
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+
+    <title>StackPHP: Ejecución de una pila de HttpKernelInterface - Yo! Symfony Blog</title>
+
+    <link rel="canonical" href="/stackphp-ejecucion-de-una-pila-de-httpkernelinterface">
+
+    <link rel="alternate" type="application/rss+xml" title="Yo! Symfony Blog Feed" href="/feed.xml" />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/clean-blog.css">
+
+    <!-- Highlight js CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Yo! Symfony Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" >
+             <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://yosymfony.com">
+        Web</a>
+    </li>
+    </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    
+
+
+<!-- Post Header -->
+<header class="intro-header" style="background-color: #aaa">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>StackPHP: Ejecución de una pila de HttpKernelInterface</h1>
+                                        <span class="meta">Posted by victor on June 9th, 2013</span>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<img class="alignnone size-full wp-image-62" alt="symfony2-logo" src="/assets/wp-content/uploads/2013/01/symfony2-logo.png" width="255" height="73" />Hace unas semanas leía un artículo muy interesante titulado <strong>"<a href="https://igor.io/2013/02/02/http-kernel-middlewares.html" target="_blank"><em>HttpKernel middlewares</em></a>"</strong> de  <a title="Twitter de Igor Wiedler" href="http://twitter.com/igorwesome" target="_blank">Igor Wiedler</a> acerca de la importancia de <a title="HttpKernelInterface de Symfony2" href="https://github.com/symfony/HttpKernel/blob/master/HttpKernelInterface.php" target="_blank">HttpKernelInterface</a> y de como se puede crear una pila de HttpKernel que se ejecuten en cadena. Por si esta interfaz no te suena, pertenece al componente <a href="https://github.com/symfony/HttpKernel" target="_blank">HttpKernel de Symfony2</a> y es la parte central del framework. Digamos que es la interfaz que cumplen las clases que desean gestionar peticiones y que usan componentes de Symfony2.
+
+Para entender la importancia de esta interfaz, hay que remontarse a la especificación <a href="http://rack.rubyforge.org/doc/SPEC.html" target="_blank"><strong>Rack</strong></a> de Ruby que define la forma en la que un servidor web puede interactuar con una aplicación Ruby. Mediante Rack, cualquier aplicación que cumpla la interfaz puede interactuar con un servidor web. En PHP, la interfaz se llama SAPI -<em>Server Application Programming Interface</em>- y dispone de varias en función del entorno y del servidor web: CLI, CGI-FCGI, ISAPI (IIS de Microsoft) etc... Puedes obtener el nombre de la interfaz SAPI con <a href="http://php.net/manual/es/function.php-sapi-name.php" target="_blank"><em>php_sapi_name()</em></a>.
+
+<!--more-->
+
+A diferencia de Rack, la interfaz de PHP es demasiado plana: $_GET, $_POST y $_SERVER. Sería más fácil e intuitivo trabajar con objetos y de eso se encarga HttpKernelInterface. Esta interfaz entrega un objeto de tipo <a title="Request de HttpFoundation - Symfony2" href="https://github.com/symfony/HttpFoundation/blob/master/Request.php" target="_blank">Request</a>, que es una representación de los datos más adecuada para trabajar y con muchas facilidades. Como salida, espera un objeto tipo <a title="Response HttpFoundation - Symfony2" href="https://github.com/symfony/HttpFoundation/blob/master/Response.php" target="_blank">Response</a> que representaría la respuesta HTTP.
+
+La desventaja HttpKernelInterface con respecto a Rack es que no existe una especificación. HttpKernelInterface pertenece a Symfony2 y no forma parte del core de PHP, pero los principales componentes de este framework se están convirtiendo en un estádar <em>de facto</em> para construir otros framework como Laravel, Drupal o Magento.
+<h3>StackPHP</h3>
+La idea que propone Igor Wiedler es la ejecución en cadena de componentes que cumplen esta interfaz, al estilo de como funcionaban los <a href="http://symfony.com/legacy/doc/more-with-symfony/1_4/en/10-Symfony-Internals#chapter_10_the_filter_chain" target="_blank">filtros de Symfony 1.x</a>. Se trata de que en cada etapa, se pueden realizar acciones durante la ida y la vuelta de la ejecución. Acciones como logger, debug, autenticación, uso de https etc... La ejecución de este tipo de stack en framework como Silex o Laravel es de gran utilidad y para facilitar la construcción de estas pilas existe un proyecto llamado <strong><a href="http://stackphp.com/" target="_blank">stackphp</a> que simplifica enormemente la creación de estas pilas:</strong>
+<pre class="prettyprint">// Ejemplo con Silex:
+$app = new Silex\Application();
+
+$stack = (new Stack\Builder()) -&gt;push('Stack\Session') -&gt;push('Symfony\Component\HttpKernel\HttpCache\HttpCache', new Store(__DIR__.'/cache')); $app = $stack-&gt;resolve($app);</pre>
+Además del builder, en Stackphp han desarrollado varios componentes <a href="https://github.com/stackphp/session" target="_blank">Stack/Session</a>, <a href="https://github.com/stackphp/url-map" target="_blank">Stack/UrlMap</a> y <a href="https://github.com/stackphp/oauth" target="_blank">Stack/OAuth</a>.
+<h3>Un ejemplo</h3>
+En Github <a href="http://twitter.com/acleon" target="_blank">@acleon</a> ha publicado un<a href="https://github.com/herebeducks/StackGeoIp" target="_blank"> ejemplo que permite añadir al stack <strong>datos de geolocalización de la IP</strong></a>. Los datos son insertados en las cabeceras de peticiones. Usarlo es sencillo y solo requiere incluirlo en el StackPHP:
+<pre class="prettyprint">use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+
+require __DIR__ . '/vendor/autoload.php';
+
+$app = new Silex\Application();
+
+...
+$stack = (new Stack\Builder())
+    -&gt;push('Ducks\Stack\GeoIp');
+
+...</pre>
+&nbsp;
+
+Ruby: <a href="http://rack.rubyforge.org/doc/Rack/Builder.html" target="_blank"><strong>Rack Builder</strong></a>.
+
+                <section class="post-meta">
+                                        <ul class="list-unstyled">
+                                                    <li>
+                                <i class="fa fa-tags"></i>
+                                                                    <a href="/./tags/httpkernelinterface">httpkernelinterface</a>,                                                                    <a href="/./tags/silex">silex</a>,                                                                    <a href="/./tags/stackphp">stackphp</a>,                                                                    <a href="/./tags/symfony2">symfony2</a>                                                            </li>
+                                                                            <li>
+                                <i class="fa fa-folder"></i>
+                                                                    <a href="/./categories/php">php</a>,                                                                    <a href="/./categories/symfony">symfony</a>                                                            </li>
+                                            </ul>
+                                    </section>
+
+                <hr>
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                        <li>
+                        <a href="https://twitter.com/yosymfony">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                                                                <li>
+                        <a href="https://github.com/yosymfony">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                                                                                                    </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Yo! Symfony 2017.
+                    Powered by <a href="http://spress.yosymfony.com/">Spress</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/assets/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/clean-blog.min.js"></script>
+
+<!-- Highlight JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+<!-- Twitter -->
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+    
+        
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Spress v2.2.0">
+
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+
+    <title>HttpServer component: a simple HTTP Server for your PHP application - Yo! Symfony Blog</title>
+
+    <link rel="canonical" href="/http-server-for-php">
+
+    <link rel="alternate" type="application/rss+xml" title="Yo! Symfony Blog Feed" href="/feed.xml" />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/clean-blog.css">
+
+    <!-- Highlight js CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Yo! Symfony Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" >
+             <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://yosymfony.com">
+        Web</a>
+    </li>
+    </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    
+
+    
+<!-- Post Header -->
+<header class="intro-header" style="        background-image: url('/assets/img/header-code.png')
+    ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>HttpServer component: a simple HTTP Server for your PHP application</h1>
+                                        <span class="meta">Posted by víctor on August 15th, 2014</span>
+                                        <br>
+                    <span class="meta">Photo by
+                                                <a href="https://flic.kr/p/mjhDwB">Yuri Samoilov</a>
+                                                            </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>I'm currently working on a built-in server for <a href="http://spress.yosymfony.com">Spress</a>,
+a simple HTTP server for watching changes in files without run <code>spress site:build</code>
+command every time you make a change. <a href="https://github.com/yosymfony/HttpServer"><strong>HttpServer</strong></a> is
+a small server built with <a href="http://reactphp.org/">REACT</a>, the event-driven and non-blocking
+I/O library for PHP.</p>
+
+<p>The installation is straightforward thanks to <a href="https://getcomposer.org/">Composer</a> tool:
+add the following to your <code>composer.json</code> file:</p>
+
+<pre><code class="json">"require": {
+    "yosymfony/httpserver": "1.0.x-dev"
+}
+</code></pre>
+
+<p>An example of how to use:</p>
+
+<pre><code class="php">$requestHandler = new RequestHandler(function($request) {
+    return 'Hi Yo! Symfony';
+});
+
+$server = new HttpServer($requestHandler);
+$server-&gt;start();
+
+// go to http://localhost:8080
+</code></pre>
+
+<p><code>RequestHandler</code> let you configure params such as port or host for
+managing requests. The constructor only expects a single
+<a href="http://php.net/manual/en/language.types.callable.php">callable</a> type argument.
+That is a function to handle each request.</p>
+
+<h3>The handler function</h3>
+
+<p>The handler function receives a single parameter to describe the request.
+By default, this argument is a
+object type <a href="https://github.com/reactphp/http/blob/master/src/Request.php">React\Http\Request</a>.
+If you want to receive a <a href="http://symfony.com/doc/current/components/http_foundation/introduction.html#request">Symfony HttpFoundation Request</a>
+object, you need to enable this mode: <code>$requestHandler-&gt;enableHttpFoundationRequest()</code>.</p>
+
+<h3>Configuring the response</h3>
+
+<p>By default, the <code>Content-Type</code> value is <code>text/plain</code> at the response header and
+a simple <code>return 'your text';</code> works fine but you can customize your response
+with <a href="https://github.com/yosymfony/HttpServer#the-response">status code and custom headers attributes</a>.</p>
+
+<h3>A complete example</h3>
+
+<p>This example point out how to use an array response:</p>
+
+<pre><code class="php">include_once __DIR__ . '/vendor/autoload.php';
+
+use Yosymfony\HttpServer\HttpServer;
+use Yosymfony\HttpServer\RequestHandler;
+
+$requestHandler = new RequestHandler(function($request) {
+   return [
+      'content' =&gt; '&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;root&gt;Hi&lt;/root&gt;',
+      'headers' =&gt; ['Content-Type' =&gt; 'text/xml'],
+      'status_code' =&gt; 200
+   ];
+});
+
+$requestHandler-&gt;listen(8080)-&gt;enableHttpFoundationRequest();
+
+$server = new HttpServer($requestHandler);
+$server-&gt;start();
+</code></pre>
+
+<p>Nice coding ;)</p>
+
+
+                <section class="post-meta">
+                                        <ul class="list-unstyled">
+                                                    <li>
+                                <i class="fa fa-tags"></i>
+                                                                    <a href="/./tags/http">http</a>,                                                                    <a href="/./tags/react">react</a>,                                                                    <a href="/./tags/server">server</a>                                                            </li>
+                                                                            <li>
+                                <i class="fa fa-folder"></i>
+                                                                    <a href="/./categories/php">php</a>                                                            </li>
+                                            </ul>
+                                    </section>
+
+                <hr>
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                        <li>
+                        <a href="https://twitter.com/yosymfony">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                                                                <li>
+                        <a href="https://github.com/yosymfony">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                                                                                                    </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Yo! Symfony 2017.
+                    Powered by <a href="http://spress.yosymfony.com/">Spress</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/assets/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/clean-blog.min.js"></script>
+
+<!-- Highlight JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+<!-- Twitter -->
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+    
+        
+</body>
+
+</html>
