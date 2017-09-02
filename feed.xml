@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Yo! Symfony Blog</title>
-        <link></link>
+        <link>http://blog.yosymfony.com</link>
         <description>RSS feed for Yo! Symfony Blog</description>
-        <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://blog.yosymfony.com/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
                 <title>Exception classes without &quot;Exception&quot; suffix?</title>
                 <description><![CDATA[<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Try to remove the &quot;Exception&quot; suffix of your exceptions. Forces you to choose good names!</p>&mdash; Bernhard Schussek (@webmozart) <a href="https://twitter.com/webmozart/status/768463723254124544">24 de agosto de 2016</a></blockquote>
@@ -60,9 +60,9 @@ and the SMTP server: operation timed out, bad authentication... etc.</p>
 <p>Exceptions are regular classes that follow the same rules that the others.
 Finding an appropriate name is just the beginning.</p>
 ]]></description>
-                <link>/2016/08/25/exception-classes-without-quotexceptionquot-suffix</link>
+                <link>http://blog.yosymfony.com/2016/08/25/exception-classes-without-quotexceptionquot-suffix</link>
                 <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/2016/08/25/exception-classes-without-quotexceptionquot-suffix</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/2016/08/25/exception-classes-without-quotexceptionquot-suffix</guid>
                                             </item>
                     <item>
                 <title>Log files for human beings</title>
@@ -87,9 +87,9 @@ of timestamps because in <code>dev</code> environment you shouldn't care about t
 machines only understand binary code. Writing a readable code is important. In
 case of log files in certain environments, is important to keep that concept in mind.</p>
 ]]></description>
-                <link>/2016/08/17/log-files-for-human-beings</link>
+                <link>http://blog.yosymfony.com/2016/08/17/log-files-for-human-beings</link>
                 <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/2016/08/17/log-files-for-human-beings</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/2016/08/17/log-files-for-human-beings</guid>
                                 <category>monolog</category>
                                 <category>log</category>
                                                 <category>php</category>
@@ -117,9 +117,9 @@ behave like pages or posts.</li>
 
 <iframe src="//slides.com/victorpuertas/novedades-spress-1-1/embed" width="576" height="420" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 ]]></description>
-                <link>/talking-about-the-new-features-of-spress-1-1-on-the-latest-episode-of-drupodcast</link>
+                <link>http://blog.yosymfony.com/talking-about-the-new-features-of-spress-1-1-on-the-latest-episode-of-drupodcast</link>
                 <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/talking-about-the-new-features-of-spress-1-1-on-the-latest-episode-of-drupodcast</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/talking-about-the-new-features-of-spress-1-1-on-the-latest-episode-of-drupodcast</guid>
                                                 <category>Spress</category>
                             </item>
                     <item>
@@ -159,9 +159,9 @@ talking about this library.</p>
 
 <p>Enjoy it!</p>
 ]]></description>
-                <link>/with-the-specification-of-toml-0-4-0-a-new-release-of-our-parser-is-available</link>
+                <link>http://blog.yosymfony.com/with-the-specification-of-toml-0-4-0-a-new-release-of-our-parser-is-available</link>
                 <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/with-the-specification-of-toml-0-4-0-a-new-release-of-our-parser-is-available</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/with-the-specification-of-toml-0-4-0-a-new-release-of-our-parser-is-available</guid>
                                                 <category>PHP</category>
                             </item>
                     <item>
@@ -236,9 +236,9 @@ $server-&gt;start();
 
 <p>Nice coding ;)</p>
 ]]></description>
-                <link>/http-server-for-php</link>
+                <link>http://blog.yosymfony.com/http-server-for-php</link>
                 <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/http-server-for-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/http-server-for-php</guid>
                                 <category>http</category>
                                 <category>react</category>
                                 <category>server</category>
@@ -254,9 +254,9 @@ The main changes of this specificaction are the <strong>new array of tables</str
 <p>Now, <a href="https://github.com/yosymfony/Toml#tomlbuilder"><strong>TomlBuilder</strong></a> has support
 for creates tables and array of tables. <strong>The method <code>addKeyGroup</code> was declared as deprecated and replaced by <code>addTable</code></strong>.</p>
 ]]></description>
-                <link>/toml-parser-0-2-0-available</link>
+                <link>http://blog.yosymfony.com/toml-parser-0-2-0-available</link>
                 <pubDate>Sun, 04 May 2014 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/toml-parser-0-2-0-available</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/toml-parser-0-2-0-available</guid>
                                 <category>parser</category>
                                 <category>toml</category>
                                                 <category>PHP</category>
@@ -278,9 +278,9 @@ for creates tables and array of tables. <strong>The method <code>addKeyGroup</co
 
 Github: <strong><a title="Github" href="https://github.com/yosymfony/Spress" target="_blank">Spress source code</a></strong>.
 ]]></description>
-                <link>/presentacion-de-spress-generador-de-sitios-estaticos-en-php</link>
+                <link>http://blog.yosymfony.com/presentacion-de-spress-generador-de-sitios-estaticos-en-php</link>
                 <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/presentacion-de-spress-generador-de-sitios-estaticos-en-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/presentacion-de-spress-generador-de-sitios-estaticos-en-php</guid>
                                 <category>html</category>
                                 <category>markdown</category>
                                 <category>twig</category>
@@ -294,9 +294,9 @@ Github: <strong><a title="Github" href="https://github.com/yosymfony/Spress" tar
 
 — Roberto Bez (@RobertoBez) <a href="https://twitter.com/RobertoBez/statuses/412859590506577920">diciembre 17, 2013</a></blockquote>
 ]]></description>
-                <link>/definicion-de-algoritmo</link>
+                <link>http://blog.yosymfony.com/definicion-de-algoritmo</link>
                 <pubDate>Tue, 24 Dec 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/definicion-de-algoritmo</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/definicion-de-algoritmo</guid>
                                 <category>algoritmo</category>
                                                 <category>Varios</category>
                             </item>
@@ -312,9 +312,9 @@ De la conferencia se desprenden dos noticas importantes: <strong><a title="DeSym
 
 — desymfony (@desymfony) <a href="https://twitter.com/desymfony/statuses/411533400445816835">diciembre 13, 2013</a></blockquote>
 ]]></description>
-                <link>/semana-intensa-para-la-comunidad-symfony</link>
+                <link>http://blog.yosymfony.com/semana-intensa-para-la-comunidad-symfony</link>
                 <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/semana-intensa-para-la-comunidad-symfony</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/semana-intensa-para-la-comunidad-symfony</guid>
                                 <category>symfonycon</category>
                                                 <category>Eventos</category>
                                 <category>Symfony</category>
@@ -330,9 +330,9 @@ Con la gestión de arrays ocurre algo similar, aunque es menos llamativo porque 
 
 String y arrays son tipos de dato primitivo que debería evolucionar a una verdadera implementación orientada a objetos en el que el propio tipo de dato tenga métodos asociados. Además, sería muy aconsejable seguir una convención de nombres porque facilitaría el aprendizaje del lenguaje. Las convenciones lo haría más previsible y por tanto más fácil.
 ]]></description>
-                <link>/php-el-lio-de-nombres-de-funciones-y-la-falta-de-agrupacion-en-clases-de-strings-y-arrays</link>
+                <link>http://blog.yosymfony.com/php-el-lio-de-nombres-de-funciones-y-la-falta-de-agrupacion-en-clases-de-strings-y-arrays</link>
                 <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-el-lio-de-nombres-de-funciones-y-la-falta-de-agrupacion-en-clases-de-strings-y-arrays</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-el-lio-de-nombres-de-funciones-y-la-falta-de-agrupacion-en-clases-de-strings-y-arrays</guid>
                                                 <category>PHP</category>
                             </item>
                     <item>
@@ -354,9 +354,9 @@ workshop.</p>
 <li><a href="https://play.google.com/store/apps/details?id=com.liflist.asociacionespanoladedrupal.drupalcampspain2013&amp;hl=es_419"><strong>App oficial</strong></a> (Android).</li>
 </ul>
 ]]></description>
-                <link>/drupalcamp-spain-2013</link>
+                <link>http://blog.yosymfony.com/drupalcamp-spain-2013</link>
                 <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/drupalcamp-spain-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/drupalcamp-spain-2013</guid>
                                 <category>drupal</category>
                                                 <category>Eventos</category>
                             </item>
@@ -366,9 +366,9 @@ workshop.</p>
 
 Github: <strong><a title="Repositorio en GitHub" href="https://github.com/domnikl/DesignPatternsPHP" target="_blank">DesignPatternsPHP</a>.</strong>
 ]]></description>
-                <link>/php-patrones-de-diseno</link>
+                <link>http://blog.yosymfony.com/php-patrones-de-diseno</link>
                 <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-patrones-de-diseno</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-patrones-de-diseno</guid>
                                                 <category>PHP</category>
                             </item>
                     <item>
@@ -378,9 +378,9 @@ Github: <strong><a title="Repositorio en GitHub" href="https://github.com/domni
 Por lo general, en base de datos no se suelen almacenar los password en texto plano (es una mala práctica y si la estas llevando a cabo te aconsejo que lo cambies lo antes posible) sino que se almacena el resultado de aplicar <em>n</em> veces una función hash, como SHA-1 al password del usuario. La codificación en Symfony está delegada a los <a href="http://symfony.com/doc/current/book/security.html#encoding-the-user-s-password" target="_blank">encoders</a>, clases encargadas de aplicar un algoritmo y devolver el password del usuario, de forma que no sea legible, junto con el número de veces que se ha aplicado el algoritmo. Realizar todo esto tiene un coste computacional que está relacionado con el tamaño del password.<strong> El ataque DOS se produce cuando no se pone límite al número de caracteres que puede tener un password</strong>. Por ejemplo, según las pruebas de Fabien Potencier, usar <a title="Wikipedia" href="http://en.wikipedia.org/wiki/PBKDF2" target="_blank">Pbkdf2</a> con un password de un millón de caracteres repetido 10.000 veces requiere casi un minuto (todo esto depende del hardware sobre el que se implemente).
 
 Si quieres saber más acerca del <em>password hashing</em> y de como funcionan este y otros tipos de ataques para resolver de forma inversa el password a partir de un hash, te recomiendo <a title="hashing security" href="https://crackstation.net/hashing-security.htm" target="_blank"><em><strong>"Salted Password Hashing - Doing it Right" de crackstation</strong></em></a>.]]></description>
-                <link>/vulnerabilidad-dos-en-el-formulario-de-login-de-fosuserbundle</link>
+                <link>http://blog.yosymfony.com/vulnerabilidad-dos-en-el-formulario-de-login-de-fosuserbundle</link>
                 <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/vulnerabilidad-dos-en-el-formulario-de-login-de-fosuserbundle</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/vulnerabilidad-dos-en-el-formulario-de-login-de-fosuserbundle</guid>
                                 <category>seguridad</category>
                                                 <category>Symfony</category>
                             </item>
@@ -389,9 +389,9 @@ Si quieres saber más acerca del <em>password hashing</em> y de como funcionan e
                 <description><![CDATA[Para crear instancias de Twig de forma intuitiva (patrón <a title="Wikipedia" href="http://en.wikipedia.org/wiki/Fluent_interface" target="_blank">Fluent interface</a>), he creado un <a title="Github" href="https://gist.github.com/yosymfony/6511456" target="_blank"><strong>snippet</strong></a>:
 <!--more-->
 <script type="text/javascript" src="https://gist.github.com/yosymfony/6511456.js"></script>]]></description>
-                <link>/gist-twig-factory</link>
+                <link>http://blog.yosymfony.com/gist-twig-factory</link>
                 <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/gist-twig-factory</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/gist-twig-factory</guid>
                                 <category>twig</category>
                                                 <category>PHP</category>
                             </item>
@@ -404,9 +404,9 @@ Si quieres saber más acerca del <em>password hashing</em> y de como funcionan e
 <strong>Silex es un micro framework escrito sobre 7 dependencias de las cuales 5 son componentes Symfony</strong>. Probablemente, escribir todo esto desde cero se traduce en menor número de líneas de código y clases pero estaríamos perdiendo la capacidad de reutilizar componentes e interoperabilidad. A decir verdad, Silex usa un número bajo de componentes si lo comparamos con otros framework: Symfony2 usa alrededor de 40, Laravel 58 y Zend Framework 2 unos 49. El caso de <strong><a title="Slim micro framework en GitHub" href="https://github.com/codeguy/Slim" target="_blank">Slim</a>,</strong> uno de los micro framework más conocidos, es especial porque se ha concebido desde cero, sin reutilizar componentes de otros framework y con un objetivo claro: ser pequeño en todo. Si nos fijamos en su <code class="prettyprint"><a href="https://github.com/codeguy/Slim/blob/master/composer.json" target="_blank">composer.json</a></code> no requiere más que un componente. En Silex, durante una ejecución típica intervienen 50 clases que hacen un total de <strong>4018 NCLOC </strong>-<em>Non-Comment Line of Code</em>- que es de 2 a 4 veces más que lo empleado por Slim.
 
 Lo interesante de Silex y otros framework (Laravel) es que para la gestión de las peticiones usa componentes que tiene un gran apoyo de la comunidad y que reciben actualizaciones a diario. Componentes que se han convertido en un <a href="/symfony2-en-el-corazon-de-otros-framework" target="_blank">estándar <em>de facto</em> para desarrollar framework</a> como es el caso de Drupal o Magento.]]></description>
-                <link>/micro-framerwork-significa-pequeno</link>
+                <link>http://blog.yosymfony.com/micro-framerwork-significa-pequeno</link>
                 <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/micro-framerwork-significa-pequeno</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/micro-framerwork-significa-pequeno</guid>
                                 <category>micro-framework</category>
                                 <category>silex</category>
                                 <category>slim</category>
@@ -440,9 +440,9 @@ Lo interesante de Silex y otros framework (Laravel) es que para la gestión de l
 <strong>La estructura no es definitiva</strong> y se están planteando muchas opciones. Pensando en los administradores de sistemas, me parece correcto llevar al raiz los directorios de <code class="prettyprint">logs</code> y <code class="prettyprint">cache</code>.
 
 Ahora que la primera LTS está lanzada, creo que es un buen momento para plantearse la estructura de proyectos en futuras versiones del framework. Si quieres estar al día sobre este tema, lo mejor es que te pases por <a title="Issue en GitHub" href="https://github.com/symfony/symfony-standard/issues/584" target="_blank"><strong>GitHub</strong></a>.]]></description>
-                <link>/symfony2-propuesta-para-mover-el-contenido-de-app-a</link>
+                <link>http://blog.yosymfony.com/symfony2-propuesta-para-mover-el-contenido-de-app-a</link>
                 <pubDate>Sat, 24 Aug 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony2-propuesta-para-mover-el-contenido-de-app-a</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony2-propuesta-para-mover-el-contenido-de-app-a</guid>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
                             </item>
@@ -520,9 +520,9 @@ Silex: <strong><a href="https://github.com/fabpot/Silex/wiki/Third-Party-Service
 Packagist: <a href="https://packagist.org/packages/yosymfony/config-serviceprovider" target="_blank"><strong>config-serviceprovider</strong></a>
 
 Gist: <a href="https://gist.github.com/yosymfony/5936108" target="_blank"><strong>Simple skeleton for Silex application</strong></a>]]></description>
-                <link>/ficheros-de-configuracion-en-silex</link>
+                <link>http://blog.yosymfony.com/ficheros-de-configuracion-en-silex</link>
                 <pubDate>Sat, 10 Aug 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/ficheros-de-configuracion-en-silex</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/ficheros-de-configuracion-en-silex</guid>
                                 <category>silex</category>
                                                 <category>PHP</category>
                                 <category>Symfony</category>
@@ -545,9 +545,9 @@ Para adentrarse en el conocimiento de esta metodología, he encontrado dos libro
 CI: <strong><a href="http://jenkins-ci.org/">Jenkins</a></strong>.
 
 CI: <strong><a href="https://travis-ci.org/">Travis</a>.</strong> Hosting de integración continua para proyectos open source.]]></description>
-                <link>/bibliografia-tdd</link>
+                <link>http://blog.yosymfony.com/bibliografia-tdd</link>
                 <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/bibliografia-tdd</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/bibliografia-tdd</guid>
                                 <category>tdd</category>
                                                 <category>Libros</category>
                             </item>
@@ -579,9 +579,9 @@ namespace {
 Aunque importemos el namespace, siempre está presente al hacer referencia a la función mediante el alias 'Helper'. Lo ideal sería importar el espacio de nombre y usar la función sin ningún tipo de alias. Para ello, el RFC propone crear un nuevo operador denominado <em><strong>use function</strong></em> que permitirá importar namespaces de funciones sin realizar un sobrecarga sobre el actual <strong>use</strong>. Además, la inclusión de este nuevo operador evitaría el <a title="PHP fallback" href="http://www.php.net/manual/es/language.namespaces.fallback.php" target="_blank"><strong>fallback de funciones</strong></a>, de manera que si una función no se puede resolver en el namespace actual, no intente buscarla en el global.
 
 Sin duda, de aprobarse este RFC, hay que tener paciencia pues se encuentra en estado de draft y estos procesos pueden ser muy lentos, muchas librerías y pequeños proyectos se beneficiarían de esta nueva característica del lenguaje.]]></description>
-                <link>/php-rfc-importar-namespaces-de-funciones</link>
+                <link>http://blog.yosymfony.com/php-rfc-importar-namespaces-de-funciones</link>
                 <pubDate>Sun, 21 Jul 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-rfc-importar-namespaces-de-funciones</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-rfc-importar-namespaces-de-funciones</guid>
                                                 <category>PHP</category>
                             </item>
                     <item>
@@ -594,9 +594,9 @@ Según los cálculos del <strong><a href="http://www.tiobe.com/index.php/conte
 <h3>La herencia del pasado</h3>
 Todavía quedan muchos programadores que al oir hablar de PHP te preguntan si ya está orientado a objetos, gente anclada en el pasado que abandonó su uso y decidió no interesarse más por un lenguaje que evoluciona constantemente y que por supuesto, es orientado a objetos desde PHP 4 (el soporte a OOP fue reescrito completamente en la versión 5). Existen muchos prejuicios como el de aquellos que piensan que en PHP cada uno trabaja por libre y no existe ningún tipo de estándar. Quizá tendrían que echar un vistazo a <a href="http://www.php-fig.org/" target="_blank">PHP-Fig -<em>PHP Framework Interop Group</em>-</a>. Para aquellos que dicen eso de "PHP no es escalabe" simplemente decir que la escalabilidad es un rasgo dependiente de tu arquitectura y no del lenguaje.
 TIOBE: <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/tpci_definition.htm" target="_blank"><strong>Programming Community Index Definition</strong></a>.]]></description>
-                <link>/php-gana-terreno-en-el-primer-semestre-de-2013</link>
+                <link>http://blog.yosymfony.com/php-gana-terreno-en-el-primer-semestre-de-2013</link>
                 <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-gana-terreno-en-el-primer-semestre-de-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-gana-terreno-en-el-primer-semestre-de-2013</guid>
                                 <category>php 5.4</category>
                                 <category>php 5.5</category>
                                                 <category>PHP</category>
@@ -606,9 +606,9 @@ TIOBE: <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/tpci_defi
                 <description><![CDATA[<img class="alignnone" alt="Mapa de los grupos de usuarios de PHP" src="http://lennyvpg.files.wordpress.com/2013/07/php-group-over-the-world.png" width="570" height="434" />
 
 Me gusta la idea de <a title="Perfil en Twitter" href="https://twitter.com/heiglandreas" target="_blank"><strong>Andreas Heigl</strong> </a>y <a title="Perfil en Twitter" href="https://twitter.com/ravetracer" target="_blank"><strong>Christian Nielebock</strong> </a>de situar en el mapa a <a title="Mapa de los grupos de usuarios de PHP en todo el mundo" href="http://php.ug/" target="_blank">todos los grupos de usuarios de PHP a lo largo de todo el mundo</a>. Hay muchas zonas en las que esperaba ver mayor cantidad: España o México. Lo más probable es que existan más de manera que si conoces algún otro grupo, puedes registrarlo enviando un <a title="GitHub" href="https://github.com/php-ug/php.ug" target="_blank">pull-request </a>o rellenando este <a href="http://php.ug/contact" target="_blank">formulario</a>.]]></description>
-                <link>/el-mapa-de-los-grupos-de-usuarios-de-php</link>
+                <link>http://blog.yosymfony.com/el-mapa-de-los-grupos-de-usuarios-de-php</link>
                 <pubDate>Fri, 05 Jul 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/el-mapa-de-los-grupos-de-usuarios-de-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/el-mapa-de-los-grupos-de-usuarios-de-php</guid>
                                                 <category>PHP</category>
                             </item>
                     <item>
@@ -632,9 +632,9 @@ Añadimos el nuevo origen:
 
 Instalamos:
 <code class="prettyprint">sudo apt-get install php5</code>]]></description>
-                <link>/actualizar-php-en-ubuntu-12-04</link>
+                <link>http://blog.yosymfony.com/actualizar-php-en-ubuntu-12-04</link>
                 <pubDate>Wed, 03 Jul 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/actualizar-php-en-ubuntu-12-04</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/actualizar-php-en-ubuntu-12-04</guid>
                                 <category>php 5.4</category>
                                 <category>php 5.5</category>
                                                 <category>PHP</category>
@@ -690,9 +690,9 @@ PHP: <a href="http://www.php.net/manual/es/language.namespaces.nsconstants.php" 
 PHP: <a href="http://php.net/ChangeLog-5.php#5.5.0" target="_blank"><strong>5.5.0 changelog</strong></a>.
 
 PHP: <a href="http://php.net/manual/en/reserved.constants.php" target="_blank"><strong>Constantes predefinidas del lenguaje</strong></a>.]]></description>
-                <link>/php-5-5-la-constante-class</link>
+                <link>http://blog.yosymfony.com/php-5-5-la-constante-class</link>
                 <pubDate>Sun, 30 Jun 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-5-5-la-constante-class</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-5-5-la-constante-class</guid>
                                 <category>php 5.5</category>
                                                 <category>PHP</category>
                             </item>
@@ -745,9 +745,9 @@ Pablo Godel, fundador del servicio <a href="http://servergrove.com/" target="_bl
 Sácale todo el partido a Silex microframework para obtener el máximo rendimiento.
 <iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="http://es.slideshare.net/slideshow/embed_code/23449158" height="421" width="512" allowfullscreen="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="Silex al límite" href="http://es.slideshare.net/javier.eguiluz/silex-al-lmite" target="_blank">Silex al límite</a> </strong> from <strong><a href="http://es.slideshare.net/javier.eguiluz" target="_blank">Javier Eguiluz</a></strong></div>]]></description>
-                <link>/las-presentaciones-de-desymfony-2013</link>
+                <link>http://blog.yosymfony.com/las-presentaciones-de-desymfony-2013</link>
                 <pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/las-presentaciones-de-desymfony-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/las-presentaciones-de-desymfony-2013</guid>
                                 <category>desymfony</category>
                                                 <category>PHP</category>
                                 <category>Symfony</category>
@@ -758,9 +758,9 @@ Sácale todo el partido a Silex microframework para obtener el máximo rendimien
 <p style="text-align: left;"><a title="Estadísticas de uso de PHP 5" href="http://w3techs.com/technologies/details/pl-php/5/all" target="_blank">PHP 5.3.x es la rama más extendida</a>, pero estando la versión 5.5.0 programada para este mes y la versión 5.4 probada holgadamente  no tiene sentido mantener durante más tiempo una rama que comenzó el <a title="Anuncio de PHP 5.3.0" href="http://www.php.net/releases/5_3_0.php" target="_blank">30 de Junio de 2009</a>.</p>
 <p style="text-align: left;">PHP: <a href="http://www.php.net/releases/5_3_0.php" target="_blank"><strong>Novedades de PHP 5.3</strong></a>.</p>
 <p style="text-align: left;">PHP: <a title="Sistema de lanzamiento de versiones de PHP" href="https://wiki.php.net/rfc/releaseprocess" target="_blank"><strong>Release Process</strong></a>.</p>]]></description>
-                <link>/fin-de-php-5-3-x</link>
+                <link>http://blog.yosymfony.com/fin-de-php-5-3-x</link>
                 <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/fin-de-php-5-3-x</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/fin-de-php-5-3-x</guid>
                                 <category>php 5.3</category>
                                                 <category>PHP</category>
                             </item>
@@ -784,9 +784,9 @@ A modo de resumen, dejo las características de los distintos tipos de versión 
 Symfony: <a href="https://github.com/symfony/symfony-standard/blob/2.3/UPGRADE-2.3.md" target="_blank"><strong>Actualizar 2.2 a 2.3</strong></a>.
 
 Symfony: <a href="http://symfony.com/blog/which-version-of-symfony-should-you-use" target="_blank"><strong>Which version of Symfony should you use?</strong></a>]]></description>
-                <link>/actualizo-a-symfony-2-3</link>
+                <link>http://blog.yosymfony.com/actualizo-a-symfony-2-3</link>
                 <pubDate>Fri, 14 Jun 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/actualizo-a-symfony-2-3</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/actualizo-a-symfony-2-3</guid>
                                 <category>symfony 2.3</category>
                                                 <category>Symfony</category>
                             </item>
@@ -826,9 +826,9 @@ $stack = (new Stack\Builder())
 &nbsp;
 
 Ruby: <a href="http://rack.rubyforge.org/doc/Rack/Builder.html" target="_blank"><strong>Rack Builder</strong></a>.]]></description>
-                <link>/stackphp-ejecucion-de-una-pila-de-httpkernelinterface</link>
+                <link>http://blog.yosymfony.com/stackphp-ejecucion-de-una-pila-de-httpkernelinterface</link>
                 <pubDate>Sun, 09 Jun 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/stackphp-ejecucion-de-una-pila-de-httpkernelinterface</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/stackphp-ejecucion-de-una-pila-de-httpkernelinterface</guid>
                                 <category>httpKernelInterface</category>
                                 <category>silex</category>
                                 <category>stackphp</category>
@@ -853,9 +853,9 @@ El actual sistema de versiones de Symfony (versiones estándar cada 6 meses y LT
 Symfony blog: <a href="http://symfony.com/blog/symfony-2-3-0-the-first-lts-is-now-available" target="_blank"><strong>Symfony 2.3.0, the first LTS, is now available.</strong></a>
 
 Symfony: <a href="http://symfony.com/doc/2.2/contributing/community/releases.html" target="_blank"><strong>Documento de versiones</strong></a>.]]></description>
-                <link>/symfony-2-3-la-primera-version-lts</link>
+                <link>http://blog.yosymfony.com/symfony-2-3-la-primera-version-lts</link>
                 <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-2-3-la-primera-version-lts</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-2-3-la-primera-version-lts</guid>
                                 <category>symfony 2.3</category>
                                                 <category>Symfony</category>
                             </item>
@@ -869,9 +869,9 @@ Cambiar la clave de usuario:
 	<li>Insertar el nombre de usuario o email.</li>
 	<li>Acceder al email recibido y pulsar sobre el enlace para cambiar el password.</li>
 </ul>]]></description>
-                <link>/vulnerabilidad-en-drupal-org-que-expone-informacion-de-cuentas-de-usuario</link>
+                <link>http://blog.yosymfony.com/vulnerabilidad-en-drupal-org-que-expone-informacion-de-cuentas-de-usuario</link>
                 <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/vulnerabilidad-en-drupal-org-que-expone-informacion-de-cuentas-de-usuario</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/vulnerabilidad-en-drupal-org-que-expone-informacion-de-cuentas-de-usuario</guid>
                                 <category>drupal</category>
                                 <category>seguridad</category>
                                                 <category>PHP</category>
@@ -974,9 +974,9 @@ Para usarlo, simplemente debemos incluirlo como dependencia:
     "yosymfony/toml": "dev-master"
 }</pre>
 Esta es la forma más sencilla de incluir una dependencia y para usarla debemos registrar nuestro componente en <a href="http://packagist.org" target="_blank"><strong>packagist.org</strong></a>. Packagist es un servicio creado por los autores de Composer que establece la relación entre el nombre del componente, en este caso yosymfony/toml, y el código fuente alojado en un repositorio tipo Git, SVN o Hg que sea accedido mediante URL (con Github lo tienes muy fácil). Si no quieres usar packagist como repositorio, podes crear los <a href="http://getcomposer.org/doc/04-schema.md#repositories" target="_blank">tuyos</a>.]]></description>
-                <link>/publicar-un-componente-php-con-composer</link>
+                <link>http://blog.yosymfony.com/publicar-un-componente-php-con-composer</link>
                 <pubDate>Sun, 26 May 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/publicar-un-componente-php-con-composer</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/publicar-un-componente-php-con-composer</guid>
                                 <category>composer</category>
                                                 <category>PHP</category>
                             </item>
@@ -997,9 +997,9 @@ Las cifras son impresionantes:
 <strong>Esto no hace más que consolidar a Symfony2 como un framework apto para emplearse en situaciones extremas</strong> en donde se requieren respuestas rápidas para miles de usuarios de todo el mundo. Por supuesto, el éxito en la parte técnica de un servicio de estas dimensiones no solo está en el framework. La arquitectura del site incluye <strong><a href="http://redis.io/" target="_blank">Redis</a></strong> (NoSQL) en lugar del tradicional MySQL. <a href="http://haproxy.1wt.eu/" target="_blank"><strong>HAProxy</strong></a> como balanceador de carga. <strong><a href="https://www.varnish-cache.org/" target="_blank">Varnish</a> </strong>como proxy inverso para suavizar la carga en servidores web. <a href="http://www.balabit.com/network-security/syslog-ng/" target="_blank"><strong>Syslog-ng</strong></a> es el encargado de procesar los 15 GB/hora que puede llegar a generar.
 
 Originalmente, Youporn comenzó en 2006 escrito en <strong><a href="http://www.perl.org/" target="_blank">Perl</a> </strong>y usando MySQL. En 2011 se reescribió el código por completo y se paso a usar PHP + Symfony obteniendo una mejoría del 10% y un código más legible.]]></description>
-                <link>/symfony-case-studies-youporn</link>
+                <link>http://blog.yosymfony.com/symfony-case-studies-youporn</link>
                 <pubDate>Sun, 19 May 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-case-studies-youporn</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-case-studies-youporn</guid>
                                                 <category>PHP</category>
                                 <category>Symfony</category>
                             </item>
@@ -1046,9 +1046,9 @@ Github: <strong><a href="https://github.com/yosymfony/Toml" target="_blank">yos
 Packagist: <a title="Yosymfony TOML - Packagist" href="https://packagist.org/packages/yosymfony/toml" target="_blank"><strong>Información del paquete</strong></a>.
 
 TOML:  <a title="TOML 0.1.0" href="https://github.com/mojombo/toml/blob/master/versions/toml-v0.1.0.md" target="_blank"><strong>especificación v0.1.0</strong></a>.]]></description>
-                <link>/yosymfonytoml-parser-php-para-el-formato-toml-de-ficheros-de-configuracion</link>
+                <link>http://blog.yosymfony.com/yosymfonytoml-parser-php-para-el-formato-toml-de-ficheros-de-configuracion</link>
                 <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/yosymfonytoml-parser-php-para-el-formato-toml-de-ficheros-de-configuracion</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/yosymfonytoml-parser-php-para-el-formato-toml-de-ficheros-de-configuracion</guid>
                                 <category>open source</category>
                                 <category>packagist</category>
                                                 <category>PHP</category>
@@ -1075,9 +1075,9 @@ Github: <a href="https://github.com/php/php-src/blob/php-5.5.0RC1/NEWS" target="
 PHP: <a href="http://downloads.php.net/dsp/" target="_blank"><strong>Descargar PHP 5.5 RC1</strong></a>.
 
 PHP: <a title="PHP 5.x changelog" href="http://www.php.net/ChangeLog-5.php" target="_blank"><strong>PHP 5 Changelog</strong></a>.]]></description>
-                <link>/php-5-5-rc1-y-actualizaciones-en-las-ramas-5-3-x-y-5-4-x</link>
+                <link>http://blog.yosymfony.com/php-5-5-rc1-y-actualizaciones-en-las-ramas-5-3-x-y-5-4-x</link>
                 <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-5-5-rc1-y-actualizaciones-en-las-ramas-5-3-x-y-5-4-x</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-5-5-rc1-y-actualizaciones-en-las-ramas-5-3-x-y-5-4-x</guid>
                                 <category>php 5.3</category>
                                 <category>php 5.4</category>
                                 <category>php 5.5</category>
@@ -1102,9 +1102,9 @@ El cambio de licencia encaja perfectamente con los objetivos del proyecto Symfon
 Licencia: <strong><a title="Licencia MIT" href="http://opensource.org/licenses/MIT" target="_blank">MIT</a></strong>
 Licencia: <strong><a title="Licencia BSD-3" href="http://opensource.org/licenses/BSD-3-Clause" target="_blank">BSD-3</a></strong>, <a title="Licencia BSD-2" href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">BSD-2</a>.
 GNU: <a title="Licencia LGPL v3" href="http://opensource.org/licenses/LGPL-3.0" target="_blank"><strong>LGPL-3</strong></a>, <strong><a href="http://www.gnu.org/licenses/gpl-faq.html" target="_blank">FAQ sobre GPL</a></strong>.]]></description>
-                <link>/symfony-y-el-cambio-de-licencia-de-swift-mailer</link>
+                <link>http://blog.yosymfony.com/symfony-y-el-cambio-de-licencia-de-swift-mailer</link>
                 <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-y-el-cambio-de-licencia-de-swift-mailer</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-y-el-cambio-de-licencia-de-swift-mailer</guid>
                                 <category>software libre</category>
                                 <category>symfony2</category>
                                                 <category>PHP</category>
@@ -1130,9 +1130,9 @@ No todos los pull request se van a incorporar. Tan solo aquellos de extremada im
 	<li><a href="https://github.com/symfony/symfony/pull/6069" target="_blank">Simpler Security customization options</a>.</li>
 </ul>
 Symfony blog: <a title="Blog de Symfony framework" href="http://symfony.com/blog/symfony-2-3-schedule-update" target="_blank"><strong>Symfony 2.3 schedule update</strong></a>]]></description>
-                <link>/symfony-2-3-muy-cerca</link>
+                <link>http://blog.yosymfony.com/symfony-2-3-muy-cerca</link>
                 <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-2-3-muy-cerca</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-2-3-muy-cerca</guid>
                                 <category>symfony 2.3</category>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
@@ -1144,9 +1144,9 @@ Symfony blog: <a title="Blog de Symfony framework" href="http://symfony.com/blo
 GitHub: <a title="GitHub" href="http://github.com/cakephp/cakephp/tags" target="_blank"><strong>Descargar actualización</strong></a>.
 
 CakePHP: <a title="CakePHP changelogs" href="http://cakephp.org/changelogs" target="_blank"><strong>ChageLogs</strong></a>.]]></description>
-                <link>/importante-actualizacion-de-seguridad-en-cakephp-1-2-12-1-3-16-2-2-8-y-2-3-4</link>
+                <link>http://blog.yosymfony.com/importante-actualizacion-de-seguridad-en-cakephp-1-2-12-1-3-16-2-2-8-y-2-3-4</link>
                 <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/importante-actualizacion-de-seguridad-en-cakephp-1-2-12-1-3-16-2-2-8-y-2-3-4</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/importante-actualizacion-de-seguridad-en-cakephp-1-2-12-1-3-16-2-2-8-y-2-3-4</guid>
                                 <category>cakephp</category>
                                 <category>seguridad</category>
                                                 <category>PHP</category>
@@ -1203,9 +1203,9 @@ Twitter: <strong><a href="http://twitter.com/padraicb" target="_blank">Pádraic
 
 Reddit: <a href="http://www.reddit.com/r/PHP/comments/1cvea9/20_point_list_for_preventing_crosssite_scripting/" target="_blank"><strong>Comentarios del artículo</strong></a>.
 ]]></description>
-                <link>/seguridad-consejos-para-evitar-el-cross-site-scripting-en-php</link>
+                <link>http://blog.yosymfony.com/seguridad-consejos-para-evitar-el-cross-site-scripting-en-php</link>
                 <pubDate>Thu, 25 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/seguridad-consejos-para-evitar-el-cross-site-scripting-en-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/seguridad-consejos-para-evitar-el-cross-site-scripting-en-php</guid>
                                 <category>seguridad</category>
                                 <category>xss</category>
                                                 <category>PHP</category>
@@ -1226,9 +1226,9 @@ La elección de una u otra puede depender del gusto de cada uno pero sobretodo d
 El uso de <em>data fixtures</em> con PhpUnit requiere de un complemento extra llamado <a title="PhpUnit DbUnit" href="https://github.com/sebastianbergmann/dbunit" target="_blank"><strong>DbUnit</strong></a> que permite inicializar la base de datos a un estado conocido. Este tipo de complementos imponen limitaciones, como el tipo de servidor de datos que soporta: MySQL, PostgreSQL, Oracle y SQLite. Desde luego son motores comunes pero ¿Qué pasa si nuestro proyecto usa otro, como por ejemplo, un motor tipo NO-SQL?.
 <h3>Test doubles</h3>
 <strong>Los <em>test doubles</em> son rápidos</strong>, y probablemente requieran el mismo tiempo de preparación que los <em>database fixtures</em>. Se crean mediante algún <em>mock framework</em> como <a href="https://github.com/mlively/Phake" target="_blank"><strong>Phake</strong></a> o el proporcionado por <a title="Test doubles en PhpUnit" href="http://www.phpunit.de/manual/current/en/test-doubles.html#test-doubles.mock-objects" target="_blank"><strong>PhpUnit</strong></a>. Quizá el problema en framework actuales, como Symfony, es el fuerte acoplamiento con base de datos en los que realizar <em>test doubles</em> para tareas que implican recuperar entidades puede llegar a ser complejo y tedioso.]]></description>
-                <link>/unit-tests-test-doubles-o-database-fixtures</link>
+                <link>http://blog.yosymfony.com/unit-tests-test-doubles-o-database-fixtures</link>
                 <pubDate>Fri, 19 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/unit-tests-test-doubles-o-database-fixtures</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/unit-tests-test-doubles-o-database-fixtures</guid>
                                 <category>unit test</category>
                                                 <category>PHP</category>
                             </item>
@@ -1239,9 +1239,9 @@ El uso de <em>data fixtures</em> con PhpUnit requiere de un complemento extra ll
 Hoy, <strong>Fabien Potencier</strong> ha publicado una entrada en su blog personal titulada "<a href="http://fabien.potencier.org/article/68/about-symfony-stability-over-features" target="_blank"><strong><em>About Symfony: Stability over Features</em></strong></a>" en la que confirmaba la idea anterior: las novedades están muy bien pero para que el framework sea más confiable y más aceptado por grandes <em>players</em> es necesario realizar más correcciones de bug, más pruebas y evitar romper la compatibilidad hacia atrás en las versiones principales como es la actual Symfony 2.
 
 A pesar de que a todos nos gusta desarrollar novedades, a la larga esta idea de estabilizar y asegurar lo que ya existe nos beneficiará a todos.]]></description>
-                <link>/symfony-la-estabilidad-es-lo-primero</link>
+                <link>http://blog.yosymfony.com/symfony-la-estabilidad-es-lo-primero</link>
                 <pubDate>Mon, 15 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-la-estabilidad-es-lo-primero</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-la-estabilidad-es-lo-primero</guid>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
                             </item>
@@ -1256,9 +1256,9 @@ A pesar de que a todos nos gusta desarrollar novedades, a la larga esta idea de 
 Del fichero de información de dependencias (<em>composer.json</em>) se pueden destilar más usos, como por ejemplo, comprobar que componentes tienen problemas de seguridad registrados. Y para ello, <a title="¿Son seguras las dependencias de tu aplicación Symfony2?" href="/son-seguras-las-dependencias-de-tu-aplicacion-symfony2" target="_blank">Sendio Labs</a> presentó una interesante aplicación para permitir comprobar este tipo de archivos de forma online o con una API REST.
 
 Como nota final, me encantaría ver a <a href="http://wordpress.org/" target="_blank"><strong>Wordpress</strong></a> usando componentes de Symfony2.]]></description>
-                <link>/otro-componente-desacoplado-en-symfony2-el-debug</link>
+                <link>http://blog.yosymfony.com/otro-componente-desacoplado-en-symfony2-el-debug</link>
                 <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/otro-componente-desacoplado-en-symfony2-el-debug</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/otro-componente-desacoplado-en-symfony2-el-debug</guid>
                                 <category>symfony 2.3</category>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
@@ -1306,9 +1306,9 @@ Como comentario final, resaltar que el crecimiento de Laravel es patente, que se
 Lectura adicional: "<strong><a href="http://pooteeweet.org/blog/2205" target="_blank">Good design is no excuse for wasting time</a></strong>" de <em>Lukas Kahwe Smith</em>.
 
 Reddit: <a href="http://www.reddit.com/r/PHP/comments/1bdln1/symfony2_vs_laravel/" target="_blank"><strong>Symfony2 vs Laravel</strong></a>.]]></description>
-                <link>/symfony2-o-laravel</link>
+                <link>http://blog.yosymfony.com/symfony2-o-laravel</link>
                 <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony2-o-laravel</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony2-o-laravel</guid>
                                 <category>laravel</category>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
@@ -1346,9 +1346,9 @@ index 9ea2d0e..798e994 100644
 Twig: <a href=" http://twig.sensiolabs.org/" target="_blank"><strong>Obtener última versión</strong></a>.
 
 Test de vulnerabilidades: <a title="Comprueba las vulnerabilidades de las dependencias de tu proyecto" href="https://security.sensiolabs.org/" target="_blank"><strong>Security Advisories Checker</strong></a>.]]></description>
-                <link>/disponible-twig-1-12-3-actualizacion-de-seguridad</link>
+                <link>http://blog.yosymfony.com/disponible-twig-1-12-3-actualizacion-de-seguridad</link>
                 <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/disponible-twig-1-12-3-actualizacion-de-seguridad</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/disponible-twig-1-12-3-actualizacion-de-seguridad</guid>
                                 <category>seguridad</category>
                                 <category>twig</category>
                                                 <category>Symfony</category>
@@ -1370,9 +1370,9 @@ Viendo el éxito que han tenido eventos como el realizado recientemente para <a 
 &nbsp;
 
 Freenode: <strong><a href="http://webchat.freenode.net/" target="_blank">Webchat</a></strong>.]]></description>
-                <link>/sprints-para-recopilar-las-correcciones-importantes-de-symfony2-3</link>
+                <link>http://blog.yosymfony.com/sprints-para-recopilar-las-correcciones-importantes-de-symfony2-3</link>
                 <pubDate>Sun, 07 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/sprints-para-recopilar-las-correcciones-importantes-de-symfony2-3</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/sprints-para-recopilar-las-correcciones-importantes-de-symfony2-3</guid>
                                 <category>symfony 2.3</category>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
@@ -1386,9 +1386,9 @@ Freenode: <strong><a href="http://webchat.freenode.net/" target="_blank">Webchat
 	<li>Buen ambiente en el canal IRC y gente proactiva.</li>
 </ul>
 Si te has quedado con las ganas de participar en un evento de este tipo, anótate la siguiente fecha: 24 de Mayo. El evento será realizará  durante la <a href="http://portland2013.live.symfony.com/" target="_blank"><strong>Symfony Live Portland</strong></a> y se podrá participar desde cualquier punto del globo.]]></description>
-                <link>/el-symfony2-docs-hack-day-fue-todo-un-exito</link>
+                <link>http://blog.yosymfony.com/el-symfony2-docs-hack-day-fue-todo-un-exito</link>
                 <pubDate>Thu, 04 Apr 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/el-symfony2-docs-hack-day-fue-todo-un-exito</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/el-symfony2-docs-hack-day-fue-todo-un-exito</guid>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
                             </item>
@@ -1427,9 +1427,9 @@ Gracias a la clase <code class="prettyprint">Friend</code> creamos un envoltorio
 &nbsp;
 
 GitHub: <a href="https://github.com/chrismcmacken/phptools" target="_blank"><strong>PhpTools</strong></a>.]]></description>
-                <link>/unit-tests-sobre-metodos-protegidos-y-privados</link>
+                <link>http://blog.yosymfony.com/unit-tests-sobre-metodos-protegidos-y-privados</link>
                 <pubDate>Sun, 31 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/unit-tests-sobre-metodos-protegidos-y-privados</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/unit-tests-sobre-metodos-protegidos-y-privados</guid>
                                 <category>unit test</category>
                                                 <category>PHP</category>
                             </item>
@@ -1446,9 +1446,9 @@ Si quieres ayudar a la comunidad Symfony, este puede ser un buen comienzo. No so
 &nbsp;
 
 Más información: <a href="http://symfony.com/blog/symfony-docs-hack-day-needs-you-on-march-30th" target="_blank"><strong>Symfony blog</strong></a>.]]></description>
-                <link>/symfony-docs-hack-day-manana-sabado</link>
+                <link>http://blog.yosymfony.com/symfony-docs-hack-day-manana-sabado</link>
                 <pubDate>Fri, 29 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-docs-hack-day-manana-sabado</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-docs-hack-day-manana-sabado</guid>
                                                 <category>Symfony</category>
                             </item>
                     <item>
@@ -1483,9 +1483,9 @@ Si quieres ayudar a crear la versión 8 de Drupal, <a href="http://drupal.org/co
 <strong>Laravel</strong> es un framework muy joven, lo lanzó <a title="Cuenta Twitter de Taylor Otwell, creador de Laravel" href="https://twitter.com/taylorotwell" target="_blank">Taylor Otwell</a> en Abril de 2011, que nació con el objetivo de realizar desarrollo con elegancia y manteniendo las cosas lo más simples posibles. Como parte de su core, <strong><a href="https://github.com/laravel/laravel/tree/master/laravel/vendor/Symfony/Component" target="_blank">Laravel incorpora el HttpFoundation y el componente Console de Symfony2</a></strong>. Console permite desarrollar potentes aplicaciones de línea de comandos dejando de lado las dificultades, como por ejemplo,  saber el estado en el que quedó la ejecución de un comando.
 <h3>Magento</h3>
 <strong>Desde la próxima versión 2 de Magento</strong>, una de las aplicaciones líderes en la creación de tiendas online, incorporará soporte para el motor de plantillas <a href="http://twig.sensiolabs.org/" target="_blank"><strong>Twig</strong></a> de Symfony2, <strong><a title="Magento soporta plantillas Twig" href="https://github.com/magento/magento2/commit/3440eaef1268e0ea556ba8e3737cdd2ddf48c449" target="_blank">tal y como se indica en este commit</a>.</strong> El soporte incluye funciones y filters propias de Magento.]]></description>
-                <link>/symfony2-en-el-corazon-de-otros-framework</link>
+                <link>http://blog.yosymfony.com/symfony2-en-el-corazon-de-otros-framework</link>
                 <pubDate>Wed, 27 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony2-en-el-corazon-de-otros-framework</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony2-en-el-corazon-de-otros-framework</guid>
                                 <category>drupal</category>
                                 <category>laravel 4</category>
                                 <category>magento</category>
@@ -1498,9 +1498,9 @@ Si quieres ayudar a crear la versión 8 de Drupal, <a href="http://drupal.org/co
                 <description><![CDATA[<img class="alignnone size-full wp-image-74" alt="netbeans-logo" src="/assets/wp-content/uploads/2013/01/netbeans-logo.png" width="227" height="68" />El desarrollo de <a href="http://netbeans.org/" target="_blank"><strong>Netbeans</strong></a> continúa y el equipo encargado de la evolución del soporte a PHP <a href="https://blogs.oracle.com/netbeansphp/entry/improved_type_renaming" target="_blank">presentó hace unos días</a> una nueva característica que se incluirá en la siguiente versión. <strong>Se trata de permitir renombrar ficheros durante el proceso de refactorización del nombre de una clase</strong>. Las buenas prácticas indican que se debería desarrollar una clase por archivo y que el nombre de la case debe coincidir con el nombre del fichero. Ahora Netbeans facilita el trabajo permitiendo realizar el renombrado de clase y fichero en una sola operación.
 
 Puedes <strong><a href="http://bertram2.netbeans.org:8080/job/PHP-build/" target="_blank">descargar la versión</a></strong> en desarrollo e informar de los errores que encuentres.]]></description>
-                <link>/netbeans-permitira-renombrar-un-archivo-al-renombrar-una-clase</link>
+                <link>http://blog.yosymfony.com/netbeans-permitira-renombrar-un-archivo-al-renombrar-una-clase</link>
                 <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/netbeans-permitira-renombrar-un-archivo-al-renombrar-una-clase</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/netbeans-permitira-renombrar-un-archivo-al-renombrar-una-clase</guid>
                                 <category>netbeans</category>
                                                 <category>PHP</category>
                             </item>
@@ -1529,9 +1529,9 @@ Puedes <strong><a href="http://bertram2.netbeans.org:8080/job/PHP-build/" target
 Las APIs de un proyecto tiene especial importancia y requiere de organizar bien el código. Por lo general, la lógica de negocio es compartida entre los accesos desde la web y los de la API. Ello obliga a implementar la menor lógica posible en los controladores y trasladarla a clases. Mediante el <a title="Inyector de dependencias - Symfony2" href="http://symfony.com/doc/current/components/dependency_injection/introduction.html" target="_blank"><em><strong>Inyector de dependencias</strong></em></a>, tendremos todo lo necesario para llevar a cabo cualquier tarea.
 
 Es probable que algunos/todos de los métodos expuestos requieran autenticación/autorización por lo que es recomendable usar protocolos como <strong><a title="Estándar OAuth" href="http://oauth.net/" target="_blank">OAuth</a></strong>. <strong><a title="OAuth 2.0 en Symfony2" href="https://github.com/FriendsOfSymfony/FOSOAuthServerBundle" target="_blank">FOSOAuthServerBundle</a></strong> permite implementar un servidor OAuth 2.0 que cualquier cliente OAuth puede consumir, incluidos los dispositivos móviles. <a title="OAuth en Android" href="http://developer.android.com/training/id-auth/authenticate.html" target="_blank">Android</a> implementa soporte de serie para este protocolo. En <a title="OAuth en iOS - StackOverflo2" href="http://stackoverflow.com/questions/2901511/iphone-oauth-tutorial" target="_blank">iPhone, mediante librerías externas)</a>. Por último, una API requiere buena documentación, por lo que <a title="Documentación de API REST en Symfony2" href="https://github.com/nelmio/NelmioApiDocBundle" target="_blank"><strong>NelmioApiDocBundle</strong></a> es genial para este propósito.]]></description>
-                <link>/symfony2-organizar-de-los-bundles-de-un-proyecto</link>
+                <link>http://blog.yosymfony.com/symfony2-organizar-de-los-bundles-de-un-proyecto</link>
                 <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony2-organizar-de-los-bundles-de-un-proyecto</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony2-organizar-de-los-bundles-de-un-proyecto</guid>
                                 <category>bundles</category>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
@@ -1543,9 +1543,9 @@ Es probable que algunos/todos de los métodos expuestos requieran autenticación
 
 — Rasmus Lerdorf (@rasmus) <a href="https://twitter.com/rasmus/status/312681386119159808">15 de marzo de 2013</a></blockquote>
 Solo queda <a href="http://pecl.php.net/package/ZendOptimizerPlus" target="_blank">descargarlo</a> (requiere PHP &gt;= 5.2) y probar a ver que tal va...]]></description>
-                <link>/php-5-5-disponible-para-probar-zendoptimizerplus</link>
+                <link>http://blog.yosymfony.com/php-5-5-disponible-para-probar-zendoptimizerplus</link>
                 <pubDate>Sat, 16 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-5-5-disponible-para-probar-zendoptimizerplus</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-5-5-disponible-para-probar-zendoptimizerplus</guid>
                                 <category>optimizerplus</category>
                                 <category>php 5.5</category>
                                                 <category>PHP</category>
@@ -1561,9 +1561,9 @@ Esta nueva característica se encuentra en una implementación muy temprana y es
 El funcionamiento es sencillo: En el navegador de proyectos seleccionamos el proyecto y, al obtener las opciones con el botón derecho, encontraremos una llamada "Composer". Desde ella podremos añadir, actualizar, validar etc...
 
 <a href="/assets/wp-content/uploads/2013/03/composer-netbeans-php.png"><img class="aligncenter size-full wp-image-233" alt="composer-netbeans-php" src="/assets/wp-content/uploads/2013/03/composer-netbeans-php.png" width="508" height="433" /></a>]]></description>
-                <link>/netbeans-gestion-de-dependencias-mediante-composer</link>
+                <link>http://blog.yosymfony.com/netbeans-gestion-de-dependencias-mediante-composer</link>
                 <pubDate>Wed, 13 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/netbeans-gestion-de-dependencias-mediante-composer</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/netbeans-gestion-de-dependencias-mediante-composer</guid>
                                 <category>composer</category>
                                 <category>netbeans</category>
                                                 <category>PHP</category>
@@ -1672,9 +1672,9 @@ $obj-&gt;miFuncion(); // Ahora si podemos llamar directamente</pre>
 &nbsp;
 
 PHP: <strong><a title="Operador this en closures - PHP" href="http://www.php.net/manual/en/functions.anonymous.php#97906" target="_blank">Uso del operador</a><a title="Operador this en closures - PHP" href="http://www.php.net/manual/en/functions.anonymous.php#97906" target="_blank"> <em>$this</em> en closures (PHP &gt;=</a><a title="Operador this en closures - PHP" href="http://www.php.net/manual/en/functions.anonymous.php#97906" target="_blank"> 5.4.0)</a></strong>.]]></description>
-                <link>/php-invocar-funciones-anonimas-desde-una-variable</link>
+                <link>http://blog.yosymfony.com/php-invocar-funciones-anonimas-desde-una-variable</link>
                 <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-invocar-funciones-anonimas-desde-una-variable</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-invocar-funciones-anonimas-desde-una-variable</guid>
                                 <category>closures</category>
                                 <category>funciones anónimas</category>
                                 <category>traits</category>
@@ -1699,9 +1699,9 @@ GitHub: <strong><a href="https://github.com/preillyme/llvm" target="_blank">LLVM
 LLVM: <strong><a title="LLVM Developer Group" href="http://llvm.org/" target="_blank">Developer Group</a></strong>.
 
 YoSymfony: <strong><a title="PHP: Escalabilidad y rendimiento" href="/php-escalabilidad-y-rendimiento" target="_blank">Escalabilidad y rendimiento en PHP</a></strong>.]]></description>
-                <link>/php-y-el-compilador-jit</link>
+                <link>http://blog.yosymfony.com/php-y-el-compilador-jit</link>
                 <pubDate>Sat, 09 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-y-el-compilador-jit</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-y-el-compilador-jit</guid>
                                 <category>compilador jit</category>
                                 <category>hhvm</category>
                                 <category>llvm</category>
@@ -1825,9 +1825,9 @@ countXXX()</pre>
 &nbsp;
 
 Documentación: <strong><a href="http://symfony.com/doc/current/contributing/code/standards.html" target="_blank">Conding standards</a></strong> | <strong><a href="http://symfony.com/doc/current/contributing/code/conventions.html" target="_blank">Convenciones del núcleo de Symfony</a></strong>]]></description>
-                <link>/guia-de-estilos-de-symfony2</link>
+                <link>http://blog.yosymfony.com/guia-de-estilos-de-symfony2</link>
                 <pubDate>Wed, 06 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/guia-de-estilos-de-symfony2</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/guia-de-estilos-de-symfony2</guid>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
                             </item>
@@ -1851,9 +1851,9 @@ Documentación: <strong><a href="http://symfony.com/doc/current/contributing/cod
 <div class="span2"><img class="alignnone size-full wp-image-213" alt="phpsummit-logo" src="/assets/wp-content/uploads/2013/03/phpsummit-logo.png" width="129" height="75" /></div>
 <div class="span7">Los <strong>días 18 al 20</strong> se celebra la <strong><a href="http://php-summit.de/" target="_blank">PHP</a><a href="http://php-summit.de/" target="_blank"> Summit</a></strong> en <a href="http://php-summit.de/2013spring/location/" target="_blank">Múnich</a> aunque el idioma principal es el Alemán por lo que si te desenvuelves con el y te encuentras cerca no dudes en asistir. Como ponentes destacados estarán <a href="http://php-summit.de/2013spring/trainer/#667">Sebastian Bergmann</a>, creador de <a href="https://github.com/sebastianbergmann/phpunit/" target="_blank">PHPUnit</a>, <a href="http://php-summit.de/2013spring/trainer/#937" target="_blank">Arne Blankerts</a> y <a href="http://php-summit.de/2013spring/trainer/#2025" target="_blank">Stefan Priebsch</a>, ambos <em>co-fundadores</em> de <a href="http://thephp.cc/">thePHP.cc</a>.</div>
 </div>]]></description>
-                <link>/eventos-php-marzo-2013</link>
+                <link>http://blog.yosymfony.com/eventos-php-marzo-2013</link>
                 <pubDate>Mon, 04 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/eventos-php-marzo-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/eventos-php-marzo-2013</guid>
                                 <category>midwestphp</category>
                                 <category>phpne</category>
                                 <category>phpsummit</category>
@@ -1878,9 +1878,9 @@ El <strong><em>Finder</em></strong> mejora en <a href="https://gist.github.com/
 Respecto a la<strong> <a href="http://symfony.com/blog/new-in-symfony-2-2-security-utilities" target="_blank">seguridad</a></strong> la versión 2.2 incluye un generador de números aleatorios seguros y un comparador de cadenas ideal para evitar <em><a href="http://en.wikipedia.org/wiki/Timing_attack">Timing attacks</a> </em>al comparar password.
 
 Por último, la parte de <strong>consola</strong> también recibe mejoras como el <a href="http://symfony.com/blog/new-in-symfony-2-2-autocomplete-on-the-command-line" target="_blank">autocompletar</a>, la <a href="http://symfony.com/blog/new-in-symfony-2-2-better-interaction-from-the-console#displaying-a-progress-bar-for-long-running-tasks" target="_blank">barra de progreso</a> o <a href="http://symfony.com/blog/new-in-symfony-2-2-better-interaction-from-the-console#hiding-passwords-given-from-the-cli" target="_blank">evitar que un password esté legible cuando lo introducimos</a>.]]></description>
-                <link>/disponible-symfony-2-2</link>
+                <link>http://blog.yosymfony.com/disponible-symfony-2-2</link>
                 <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/disponible-symfony-2-2</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/disponible-symfony-2-2</guid>
                                 <category>symfony 2.2</category>
                                                 <category>Symfony</category>
                             </item>
@@ -1899,9 +1899,9 @@ La gran ventaja de <em>Zend Optimizer+</em> es el rendimiento pero <em>APC</em> 
 &nbsp;
 
 Vota el <a href="https://wiki.php.net/rfc/optimizerplus" target="_blank"><strong>RFC</strong></a>.]]></description>
-                <link>/zend-optimizer-vendra-integrado-en-php-5-5</link>
+                <link>http://blog.yosymfony.com/zend-optimizer-vendra-integrado-en-php-5-5</link>
                 <pubDate>Thu, 28 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/zend-optimizer-vendra-integrado-en-php-5-5</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/zend-optimizer-vendra-integrado-en-php-5-5</guid>
                                 <category>optimizer+</category>
                                 <category>php 5.5</category>
                                                 <category>PHP</category>
@@ -1919,9 +1919,9 @@ Si  desarrollas aplicaciones con <em>Symfony framework</em> no deberías perder
 <strong>Web del evento</strong>: <a href="http://desymfony.com/" target="_blank">desymfony.com</a>
 
 <strong>Ponencias anteriores</strong>: <a href="http://www.youtube.com/user/desymfony" target="_blank">Vídeos</a> | <a title="Presentaciones deSymfony 2012 - Slideshow" href="http://www.slideshare.net/search/slideshow?q=desymfony+2012" target="_blank">Presentaciones</a>]]></description>
-                <link>/desymfony-2013-ya-tiene-fecha-y-lugar</link>
+                <link>http://blog.yosymfony.com/desymfony-2013-ya-tiene-fecha-y-lugar</link>
                 <pubDate>Wed, 27 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/desymfony-2013-ya-tiene-fecha-y-lugar</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/desymfony-2013-ya-tiene-fecha-y-lugar</guid>
                                 <category>desymfony</category>
                                                 <category>Eventos</category>
                             </item>
@@ -1981,9 +1981,9 @@ Además, ahora el código puede ser más bonito porque se han creado funciones p
 
 <a href="http://www.w3.org/TR/esi-lang" target="_blank">ESI Language Specification 1.0</a>
 ]]></description>
-                <link>/el-nuevo-sub-framework-encargado-de-gestionar-fragmentos-de-contenido</link>
+                <link>http://blog.yosymfony.com/el-nuevo-sub-framework-encargado-de-gestionar-fragmentos-de-contenido</link>
                 <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/el-nuevo-sub-framework-encargado-de-gestionar-fragmentos-de-contenido</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/el-nuevo-sub-framework-encargado-de-gestionar-fragmentos-de-contenido</guid>
                                 <category>desymfony</category>
                                 <category>symfony 2.2</category>
                                                 <category>Symfony</category>
@@ -2073,9 +2073,9 @@ El constructor<a href="http://www.php.net/manual/en/function.list.php" target="_
 foreach ($array as list($a, $b)) {
     echo "A: $a; B: $b\n";
 }</pre>]]></description>
-                <link>/las-nuevas-caracteristicas-de-php-5-5</link>
+                <link>http://blog.yosymfony.com/las-nuevas-caracteristicas-de-php-5-5</link>
                 <pubDate>Sun, 24 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/las-nuevas-caracteristicas-de-php-5-5</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/las-nuevas-caracteristicas-de-php-5-5</guid>
                                 <category>php 5.5</category>
                                                 <category>PHP</category>
                             </item>
@@ -2104,9 +2104,9 @@ Las imágenes se almacenan en MySql, por ejemplo, en un campo tipo <a title="Doc
 <strong>Almacenar las imágenes en base de datos supone un grado de acoplamiento alto entre las imágenes y el gestor de base de datos</strong>. Esto no ocurre con el almacenamiento en disco. Por otro lado, almacenar las imágenes en base de datos tienen la ventaja de tener el respaldo de las transacciones (en MySQL usar motor <a title="InnoDB - Wikipedia" href="http://es.wikipedia.org/wiki/InnoDB" target="_blank">InnoDB</a>) por lo que si para tu aplicación son importantes ciertos atributos asociados a la imagen, la imagen y los atributos se pueden almacenar en una operación atómica. Si se produce algún fallo, no se almacena la imagen. En disco, esto no sucede. Si se produce un error, la imagen quedará corrupta y los atributos no estarán sincronizados correctamente.
 
 Almacenar las imágenes en base de datos te da el beneficio de poder usar las herramientas de <em>backups</em> típicas de un gestor de base de datos. Almacenarlas en disco... también tiene sus herramientas de backup pero las de base de datos te pueden permitir una recuperación parcial.]]></description>
-                <link>/almacenar-las-imagenes-en-disco-o-en-base-de-datos</link>
+                <link>http://blog.yosymfony.com/almacenar-las-imagenes-en-disco-o-en-base-de-datos</link>
                 <pubDate>Thu, 21 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/almacenar-las-imagenes-en-disco-o-en-base-de-datos</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/almacenar-las-imagenes-en-disco-o-en-base-de-datos</guid>
                                 <category>mysql</category>
                                 <category>rendimiento</category>
                                                 <category>PHP</category>
@@ -2127,9 +2127,9 @@ Tienes tres formas de usarlo,  una de ellas es mediante una API que te permitir
 &nbsp;
 
 Eco de la noticia:<strong> <a href="http://fabien.potencier.org/article/67/don-t-use-php-libraries-with-known-security-issues" target="_blank">Fabien Potencier</a> | <a href="http://www.symfony.es/noticias/2013/02/19/nueva-herramienta-para-descubrir-problemas-de-seguridad-en-proyectos-php" target="_blank">Symfony.es</a></strong>]]></description>
-                <link>/son-seguras-las-dependencias-de-tu-aplicacion-symfony2</link>
+                <link>http://blog.yosymfony.com/son-seguras-las-dependencias-de-tu-aplicacion-symfony2</link>
                 <pubDate>Tue, 19 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/son-seguras-las-dependencias-de-tu-aplicacion-symfony2</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/son-seguras-las-dependencias-de-tu-aplicacion-symfony2</guid>
                                 <category>bug</category>
                                 <category>seguridad</category>
                                                 <category>PHP</category>
@@ -2155,9 +2155,9 @@ Más tarde dejaba claro en Twitter que<strong> no es un problema exclusivo de Ze
 Por el momento no hay más información y argumentan que habrá una nueva actualización pronto de las ramas 5.3 y 5.4. La última actualización se realizó el <a title="Nuevas versiones PHP 5.4.11 y PHP 5.3.21" href="/nuevas-versiones-php-5-4-11-y-php-5-3-21" target="_blank">pasado Enero</a>.
 
 Pues nada, si eres usuario de Zend Server 6 <a title="Zend Server 6" href="http://www.zend.com/en/products/server/downloads-prev" target="_blank"><strong>tienes una corrección disponible</strong></a>. El resto deberá esperar.]]></description>
-                <link>/vulnerabilidad-soap-en-php-5-3x-y-5-4x</link>
+                <link>http://blog.yosymfony.com/vulnerabilidad-soap-en-php-5-3x-y-5-4x</link>
                 <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/vulnerabilidad-soap-en-php-5-3x-y-5-4x</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/vulnerabilidad-soap-en-php-5-3x-y-5-4x</guid>
                                 <category>bug</category>
                                 <category>php 5.3</category>
                                 <category>php 5.4</category>
@@ -2166,9 +2166,9 @@ Pues nada, si eres usuario de Zend Server 6 <a title="Zend Server 6" href="http:
                     <item>
                 <title>@phpuniverse: Información de la comunidad PHP en tiempo real</title>
                 <description><![CDATA[<img class="alignnone  wp-image-141" style="margin: 5px;" alt="phpuniverse-logo-twitter" src="/assets/wp-content/uploads/2013/02/phpuniverse-logo-twitter.png" width="77" height="77" />El mundo de PHP está en contínua evolución. El número de proyectos realizados con este leguaje crece cada día y todos estos ellos generan una gran cantidad de información: nuevas versiones, tutoriales o eventos celebrados por todo el mundo entorno los los grandes proyectos. Con el fin de agrupar <a title="Comunidad PHP" href="http://yosymfony.com/comunidad-php/"><strong>todas las noticias (en cualquier idioma) que suceden en la comunidad de usuarios de PHP</strong></a>, he creado una cuenta twitter <a title="Información sobre PHP y su entorno - Twitter" href="http://twitter.com/phpuniverse" target="_blank"><strong>@phpuniverse</strong></a> que recolecta diariamente información sobre PHP y su entorno. La <a href="https://github.com/yosymfony/phpuniverse-feed-list/blob/master/list.md" target="_blank">lista de fuentes</a> se actualiza cada vez que encuentro alguna interesante y, por supuesto, está abierta a sugerencias mediante un <a title="Comunidad PHP" href="http://devi-vm.local/wordpress/?page_id=410" target="_blank"><em>pull-request</em></a> en nuestra cuenta de <a title="Yosymfony en Github" href="https://github.com/yosymfony" target="_blank">GitHub</a>.]]></description>
-                <link>/phpuniverse-informacion-de-la-comunidad-php-en-tiempo-real</link>
+                <link>http://blog.yosymfony.com/phpuniverse-informacion-de-la-comunidad-php-en-tiempo-real</link>
                 <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/phpuniverse-informacion-de-la-comunidad-php-en-tiempo-real</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/phpuniverse-informacion-de-la-comunidad-php-en-tiempo-real</guid>
                                 <category>comunidad php</category>
                                                 <category>PHP</category>
                             </item>
@@ -2209,9 +2209,9 @@ Si queremos que nuestra base de datos sea volátil, debemos poner a <em>true</em
 &nbsp;
 
 Doctrine: <a title="Documentación pdo_sqlite [eng] - Doctrine" href="http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html" target="_blank"><strong>Driver pdo_sqlite</strong></a>]]></description>
-                <link>/configurar-doctrine-para-usar-sqlite-en-symfony2</link>
+                <link>http://blog.yosymfony.com/configurar-doctrine-para-usar-sqlite-en-symfony2</link>
                 <pubDate>Thu, 14 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/configurar-doctrine-para-usar-sqlite-en-symfony2</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/configurar-doctrine-para-usar-sqlite-en-symfony2</guid>
                                 <category>doctrine</category>
                                 <category>sqlite</category>
                                 <category>symfony2</category>
@@ -2228,9 +2228,9 @@ Trabajar con Github es sencillo. Simplemente, elegimos el proyecto con el que qu
 Grandes organizaciones y proyecto residen en Gihub: <a title="Repositorios de Mozilla - Github" href="https://github.com/mozilla" target="_blank">Mozilla</a>, <a title="Repositorio de Symfony - Github" href="https://github.com/symfony/symfony" target="_blank"><strong>Symfony</strong></a> o el <a title="Repositorio kernel Linux - Github" href="https://github.com/torvalds/linux" target="_blank">kernel Linux</a>, todos ellos grandes proyectos con cientos de desarrolladores a lo largo del mundo colaborando entorno a un código alojado en Github que actúa como eje central. Existen repositórios para código libre y código privado (estos son de pago) y tanto unos como otros sufren el mismo problema y es que Github <strong>no ofrece ningún tipo de <a href="http://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio" target="_blank">Acuerdo de Nivel de Servicio</a></strong> o <em>Service Level Agreement</em> por el que poder realizar reclamaciones en el caso de los repositorios privados.
 <h3>Alternativas</h3>
 Una posible solución, si te sientes cómodo con Github,  es crearte tu propio Github en los servidores de tu empresa con <a href="https://enterprise.github.com/pricing" target="_blank">Github Enterprise</a>, aunque no es una solución al alcance de cualquiera, o usar una alternativa <em>open source</em> bajo <em>licencia MIT </em>llamada <a title="Alternativa open source a Github" href="http://gitlab.org/" target="_blank"><strong>Gitlab</strong></a> que nos ofrece una solución parecida a Github incluso en aspecto.]]></description>
-                <link>/github-y-sus-recientes-problemas-de-disponibilidad</link>
+                <link>http://blog.yosymfony.com/github-y-sus-recientes-problemas-de-disponibilidad</link>
                 <pubDate>Wed, 13 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/github-y-sus-recientes-problemas-de-disponibilidad</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/github-y-sus-recientes-problemas-de-disponibilidad</guid>
                                 <category>github</category>
                                                 <category>Varios</category>
                             </item>
@@ -2251,9 +2251,9 @@ También puedes descargar el proyecto <a title="Syfmony2 Standard Edition" href=
 Si por el contrario, usas componentes sueltos, la actualización pasa por actualizar <em>composer.json</em> o descargar los componetes manualmente: <code class="prettyprint">https://github.com/symfony/{nombre_componente}/archive/v2.2.0-RC2.zip;</code>
 
 Si actualizas desde la versión 2.1, no olvides <a href="https://github.com/symfony/symfony/blob/master/UPGRADE-2.2.md" target="_blank">revisar el archivo de actualización hacia la 2.2</a>.]]></description>
-                <link>/symfony-2-2-0-rc2-disponible</link>
+                <link>http://blog.yosymfony.com/symfony-2-2-0-rc2-disponible</link>
                 <pubDate>Mon, 11 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-2-2-0-rc2-disponible</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-2-2-0-rc2-disponible</guid>
                                 <category>symfony 2.2.0</category>
                                                 <category>Symfony</category>
                             </item>
@@ -2296,9 +2296,9 @@ Migración de aplicaciones a Symfony2:
 Además, se habló también sobre <a href="http://jmikola.github.com/slides/mongodb_dos_and_donts/">qué se debe hacer y qué no hacer con Mongo DB</a> by Jeremy Mikola (<a title="Twitter de Jeremy Mikola" href="http://twitter.com/jmikola" target="_blank">@jmikola</a>) y <a href="http://davidbu.ch/slides/20130208_sunshinephp_symfony-speed.html" target="_blank"><strong>optimización del Frontend en Symfony2</strong></a> by  David Buchmann (<a title="Twitter de David Buchmann" href="http://twitter.com/dbu" target="_blank">@dbu</a>).
 
 Por supuesto, en esta edición de la SunshinePHP se trataron más temas. Si veo más presentaciones, las colgaré en el post.]]></description>
-                <link>/las-presentaciones-de-la-sunshinephp-2013</link>
+                <link>http://blog.yosymfony.com/las-presentaciones-de-la-sunshinephp-2013</link>
                 <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/las-presentaciones-de-la-sunshinephp-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/las-presentaciones-de-la-sunshinephp-2013</guid>
                                 <category>sunshinephp</category>
                                                 <category>Eventos</category>
                             </item>
@@ -2356,9 +2356,9 @@ Existen algunos autores como <a href="http://blog.stuartherbert.com/php/2012/12
 &nbsp;
 
 Github: <strong><a title="PSR-3 logger interface" href="https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md" target="_blank">Documentación PSR-3</a></strong>]]></description>
-                <link>/psr-3-el-estandar-para-las-librerias-logger-de-php</link>
+                <link>http://blog.yosymfony.com/psr-3-el-estandar-para-las-librerias-logger-de-php</link>
                 <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/psr-3-el-estandar-para-las-librerias-logger-de-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/psr-3-el-estandar-para-las-librerias-logger-de-php</guid>
                                 <category>logger</category>
                                 <category>psr</category>
                                 <category>psr-3</category>
@@ -2377,9 +2377,9 @@ Si quieres comenzar a probar el nuevo Web profiler de Silex, la mejor forma es m
 &nbsp;
 
 Github: <a title="Código fuente - Github" href="https://github.com/sensiolabs/Silex-WebProfiler" target="_blank"><strong>WebProfiler para Silex</strong></a>.]]></description>
-                <link>/el-web-profiler-de-symfony2-en-silex</link>
+                <link>http://blog.yosymfony.com/el-web-profiler-de-symfony2-en-silex</link>
                 <pubDate>Fri, 08 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/el-web-profiler-de-symfony2-en-silex</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/el-web-profiler-de-symfony2-en-silex</guid>
                                 <category>micro-framework</category>
                                 <category>silex</category>
                                                 <category>PHP</category>
@@ -2413,9 +2413,9 @@ $data = $openshift-&gt;getDomainManager()-&gt;getDomain("yoSymfony")-&gt;createA
 
 <a href="http://openshift.redhat.com" target="_blank">OpenShift de Redhat</a>
 Github: <strong><em><a title="OpenShift API client para PHP" href="https://github.com/hasinhayder/openshift-php-client" target="_blank">OpenShift PHP Client</a>.</em></strong>]]></description>
-                <link>/cliente-para-la-api-de-openshift-en-php</link>
+                <link>http://blog.yosymfony.com/cliente-para-la-api-de-openshift-en-php</link>
                 <pubDate>Thu, 07 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/cliente-para-la-api-de-openshift-en-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/cliente-para-la-api-de-openshift-en-php</guid>
                                 <category>openshift</category>
                                                 <category>PHP</category>
                             </item>
@@ -2484,9 +2484,9 @@ $client-&gt;setDescription($description);</pre>
 &nbsp;
 
 Código fuente: <strong><a title="Código fuente GuzzlePHP - Github" href="https://github.com/guzzle/guzzle" target="_blank">Github</a></strong>.]]></description>
-                <link>/guzzle-framework-para-construir-clientes-de-servicios-rest</link>
+                <link>http://blog.yosymfony.com/guzzle-framework-para-construir-clientes-de-servicios-rest</link>
                 <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/guzzle-framework-para-construir-clientes-de-servicios-rest</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/guzzle-framework-para-construir-clientes-de-servicios-rest</guid>
                                 <category>api</category>
                                 <category>guzzlephp</category>
                                 <category>rest</category>
@@ -2555,9 +2555,9 @@ Ahora, cada servidor web tiene configurado su esclavo.
 Existe una configuración adicional en la que en cada servidor web se instala un esclavo MySql. En general, es un configuración que no me gusta debido a que estás uniendo las necesidades del servidor web con las del servidor de base de datos. Una aplicación web puede hacer uso intesivo de datos y necesitar agregar cinco servidores MySql sin necesidad de aumentar los servidores web.
 <h4>Configuración maestro-esclavo en Symfony2</h4>
 Doctrine 2.1 soporta la configuración maestro-esclavo y desde <a title="Configuración Doctrine para maestro-esclavo en Symfony2" href="http://symfony.com/doc/master/reference/configuration/doctrine.html" target="_blank">Symfony2</a> se puede usar.]]></description>
-                <link>/php-escalabilidad-y-rendimiento</link>
+                <link>http://blog.yosymfony.com/php-escalabilidad-y-rendimiento</link>
                 <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/php-escalabilidad-y-rendimiento</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php-escalabilidad-y-rendimiento</guid>
                                 <category>escalabilidad</category>
                                 <category>mysql</category>
                                 <category>rendimiento</category>
@@ -2574,9 +2574,9 @@ Doctrine 2.1 soporta la configuración maestro-esclavo y desde <a title="Configu
 Sin salir del continente americano, la <strong><a title="Symfony Live USA 2013" href="http://portland2013.live.symfony.com/registration/" target="_blank">Symfony Live USA</a></strong> se celebrará este año en Portland del 20 al 24 de Mayo coincidiendo por primera vez con la <a title="DrupalCon 2013" href="http://portland2013.drupal.org/" target="_blank">DrupalCon</a> y la <a href="http://www.webvisionsevent.com/" target="_blank">WebVision</a>. Y es que la <a title="Drupal 8 integrará componentes de Symfony2" href="http://www.symfony.es/noticias/2011/10/26/drupal-8-integra-los-primeros-componentes-de-symfony2/" target="_blank">relación Symfony-Drupal no se estrecha solo en código</a>. Será un gran acontecimiento con tres días de talleres, dos de conferencias y acceso al examen de certificación de Symfony2.
 
 En Europa, <strong>Symfony Live realizará eventos en <a title="Symfony Live 2013 París [fr]" href="http://paris2013.live.symfony.com/" target="_blank">París</a></strong>, Reino Unido y Alemania. Por el momento, solo hay información del evento en París que se realizará del 2 al 6 de Abril.]]></description>
-                <link>/symfony-live-tour-2013</link>
+                <link>http://blog.yosymfony.com/symfony-live-tour-2013</link>
                 <pubDate>Sat, 02 Feb 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/symfony-live-tour-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/symfony-live-tour-2013</guid>
                                 <category>sunshinephp</category>
                                 <category>symfony live</category>
                                 <category>symfonycon</category>
@@ -2607,9 +2607,9 @@ Gracias a <a title="Manual de Silex microframework en español" href="http://lib
 &nbsp;
 
 <a href="http://librosweb.es/silex/" target="_blank">Manual de Silex en español</a>.]]></description>
-                <link>/manual-de-silex-en-espanol</link>
+                <link>http://blog.yosymfony.com/manual-de-silex-en-espanol</link>
                 <pubDate>Wed, 30 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/manual-de-silex-en-espanol</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/manual-de-silex-en-espanol</guid>
                                 <category>libros</category>
                                 <category>micro-framework</category>
                                 <category>silex</category>
@@ -2632,9 +2632,9 @@ Por el momento CakePHP 2.3.0 puede correr en PHP 5.2, pero, como dicen ellos, te
 
 Lista de <a href="http://bakery.cakephp.org/articles/lorenzo/2013/01/28/cakephp_2_3_0_is_out" target="_blank">novedades de CakePHP 2.3.0 + revisiones de 2.2.6</a>
 <strong>Via</strong>: <a href="http://bakery.cakephp.org/" target="_blank">Blog CakePHP</a>]]></description>
-                <link>/disponible-cakephp-2-3-0</link>
+                <link>http://blog.yosymfony.com/disponible-cakephp-2-3-0</link>
                 <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/disponible-cakephp-2-3-0</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/disponible-cakephp-2-3-0</guid>
                                 <category>cakephp</category>
                                                 <category>PHP</category>
                             </item>
@@ -2659,9 +2659,9 @@ Confoo Conference vista por sus participantes:
 
 <strong>Web</strong>: <a href="http://confoo.ca/" target="_blank">confoo.ca</a>
 <strong>Lugar</strong>: <a href="http://confoo.ca/en/venue" target="_blank">Hilton Bonaventure - Montreal, Canadá</a> | Venta de tickets <a href="http://confoo.ca/en" target="_blank">online</a>.]]></description>
-                <link>/confoo-conferencen-2013</link>
+                <link>http://blog.yosymfony.com/confoo-conferencen-2013</link>
                 <pubDate>Mon, 28 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/confoo-conferencen-2013</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/confoo-conferencen-2013</guid>
                                 <category>confoo conference</category>
                                                 <category>Eventos</category>
                             </item>
@@ -2697,9 +2697,9 @@ Cuando lo que realmente queríamos era esto:
 }</pre>
 <h3>Motor de plantillas Smarty</h3>
 <a title="Motor de plantillas para PHP Smarty" href="http://www.smarty.net/" target="_blank">Smarty</a> es otro motor de plantillas al estilo Twig muy usado en el mundo PHP. Las novedades de NetBeans 7.3 incluyen el <a href="https://blogs.oracle.com/netbeansphp/entry/smarty_tags_pairing_and_matching" target="_blank">resaltado de etiquetas y la generación de mensajes de advertencia cuando no se cierran correctamente</a>. Además, como Twig, también incluye <em>code templates </em>y soporte para <a href="https://blogs.oracle.com/netbeansphp/entry/smarty_configurable_comments_and_code" target="_blank">dos formas de realizar comentarios en las plantillas</a>.]]></description>
-                <link>/las-novedades-netbeans-7-3-para-symfony-y-php</link>
+                <link>http://blog.yosymfony.com/las-novedades-netbeans-7-3-para-symfony-y-php</link>
                 <pubDate>Mon, 28 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/las-novedades-netbeans-7-3-para-symfony-y-php</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/las-novedades-netbeans-7-3-para-symfony-y-php</guid>
                                 <category>composer</category>
                                 <category>netbeans</category>
                                 <category>symfony2</category>
@@ -2761,9 +2761,9 @@ De ellos, los más usados suelen ser los siguientes:
 	<li><strong>twig</strong>: Motor de plantillas</li>
 	<li><strong>security.context</strong>: Información de la sesión de usuario: token, roles, autenticación...</li>
 </ul>]]></description>
-                <link>/los-servicios-estandar-de-symfony2</link>
+                <link>http://blog.yosymfony.com/los-servicios-estandar-de-symfony2</link>
                 <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/los-servicios-estandar-de-symfony2</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/los-servicios-estandar-de-symfony2</guid>
                                 <category>inyección de dependencias</category>
                                 <category>symfony2</category>
                                                 <category>Symfony</category>
@@ -2802,9 +2802,9 @@ Y ahora solo queda levantar el servidor con los nuevos parámetros:
 &nbsp;
 
 <strong>Más información</strong>: <a title="Documentación de PHP" href="http://php.net/manual/es/features.commandline.webserver.php" target="_blank">Servidor web embebido en PHP</a>]]></description>
-                <link>/el-servidor-web-incluido-en-php-5-4</link>
+                <link>http://blog.yosymfony.com/el-servidor-web-incluido-en-php-5-4</link>
                 <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/el-servidor-web-incluido-en-php-5-4</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/el-servidor-web-incluido-en-php-5-4</guid>
                                 <category>servidor web embebido</category>
                                                 <category>PHP</category>
                             </item>
@@ -2817,9 +2817,9 @@ Es muy recomendable actualizar cualquier versión anterior de PHP a la rama 5.4.
 <strong>Historial de cambios</strong>: <a title="Historial de cambios de PHP 5 - eng" href="http://php.net/ChangeLog-5.php" target="_blank">PHP 5</a>
 
 <strong>Descargar</strong>: <a href="http://php.net/downloads.php" target="_blank">PHP</a>]]></description>
-                <link>/nuevas-versiones-php-5-4-11-y-php-5-3-21</link>
+                <link>http://blog.yosymfony.com/nuevas-versiones-php-5-4-11-y-php-5-3-21</link>
                 <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/nuevas-versiones-php-5-4-11-y-php-5-3-21</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/nuevas-versiones-php-5-4-11-y-php-5-3-21</guid>
                                 <category>php 5.3</category>
                                 <category>php 5.4</category>
                                                 <category>PHP</category>
@@ -2837,9 +2837,9 @@ Participar en un evento de la envergadura de deSymfony conlleva grandes ventajas
 <strong>Ponencias anteriores</strong>: <a href="http://www.youtube.com/user/desymfony" target="_blank">Vídeos</a> | <a title="Presentaciones deSymfony 2012 - Slideshow" href="http://www.slideshare.net/search/slideshow?q=desymfony+2012" target="_blank">Presentaciones</a>
 
 &nbsp;]]></description>
-                <link>/desymfony-2013-abre-el-periodo-de-inscripcion-para-ponentes-2</link>
+                <link>http://blog.yosymfony.com/desymfony-2013-abre-el-periodo-de-inscripcion-para-ponentes-2</link>
                 <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
-                <guid isPermaLink="true">/desymfony-2013-abre-el-periodo-de-inscripcion-para-ponentes-2</guid>
+                <guid isPermaLink="true">http://blog.yosymfony.com/desymfony-2013-abre-el-periodo-de-inscripcion-para-ponentes-2</guid>
                                 <category>desymfony</category>
                                                 <category>Eventos</category>
                             </item>
