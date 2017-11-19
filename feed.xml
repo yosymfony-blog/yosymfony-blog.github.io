@@ -6,6 +6,38 @@
         <description>RSS feed for Yo! Symfony Blog</description>
         <atom:link href="http://blog.yosymfony.com/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
+                <title>Toml 1.0.0 is out</title>
+                <description><![CDATA[<p>A new version of Toml parser has been released. The main feature of this release
+is that the parser has been rewritten from scratch for PHP 7.1 and using
+<a href="https://github.com/yosymfony/parser-utils"><code>parser-utils</code></a>, a set of utilities
+for writing recursive descent parsers. The support for previous versions of PHP
+has been abandoned.</p>
+
+<h2>The changelog</h2>
+
+<ul>
+<li>The code has been rewritten from scratch for <strong>PHP 7.1</strong>.</li>
+<li>The method <code>parse</code> from <code>Toml</code> class must only be applied to TOML strings.
+In case of parsing a TOML filename use the new method <code>parseFile</code>.</li>
+<li>Methods <code>parse</code> and <code>parseFile</code> from <code>Toml</code> class accept a new argument <code>resultAsObject</code>
+(optional) to return the parsed input as an object (an instance of <code>stdClass</code>).</li>
+<li>The method <code>addGroup</code> of <code>TomlBuilder</code> class has been deleted.</li>
+<li>The exceptions have been refactored, so the classes <code>ExceptionInterface</code>,
+<code>LexerException</code> and <code>RuntimeException</code> have been removed.</li>
+<li>Added the inner exception when a <code>ParseException</code> is thrown in method <code>parse</code> of class <code>Toml</code>.</li>
+<li>Fixed bug #13: "Inline sub-tables don't work".</li>
+<li>Fixed bug #12: "Does not parse a table with an array of tables".</li>
+<li>Better support for dates as specified in the latest TOML spec. See PR #11.</li>
+</ul>
+]]></description>
+                <link>http://blog.yosymfony.com/php/2017/11/19/toml-1-0-0-is-out</link>
+                <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+                <guid isPermaLink="true">http://blog.yosymfony.com/php/2017/11/19/toml-1-0-0-is-out</guid>
+                                <category>toml</category>
+                                <category>parser</category>
+                                                <category>php</category>
+                            </item>
+                    <item>
                 <title>Exception classes without &quot;Exception&quot; suffix?</title>
                 <description><![CDATA[<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Try to remove the &quot;Exception&quot; suffix of your exceptions. Forces you to choose good names!</p>&mdash; Bernhard Schussek (@webmozart) <a href="https://twitter.com/webmozart/status/768463723254124544">24 de agosto de 2016</a></blockquote>
 

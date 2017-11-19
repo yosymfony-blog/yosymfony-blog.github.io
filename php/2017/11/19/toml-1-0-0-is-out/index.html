@@ -6,14 +6,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We love make things">
+    <meta name="description" content="">
     <meta name="generator" content="Spress v2.2.0">
 
     <link rel="shortcut icon" href="http://blog.yosymfony.com/assets/img/favicon.png">
 
-    <title>Yo! Symfony Blog</title>
+    <title>Toml 1.0.0 is out - Yo! Symfony Blog</title>
 
-    <link rel="canonical" href="http://blog.yosymfony.com/page7">
+    <link rel="canonical" href="http://blog.yosymfony.com/php/2017/11/19/toml-1-0-0-is-out">
 
     <link rel="alternate" type="application/rss+xml" title="Yo! Symfony Blog Feed" href="/feed.xml" />
 
@@ -71,96 +71,80 @@
 
     
 
-    
-<!-- Page Header -->
-<header class="intro-header" style="        background-image: url('http://blog.yosymfony.com/assets/img/header-robot-walking.jpg')
-    ">
+
+<!-- Post Header -->
+<header class="intro-header" style="background-color: #aaa">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Yo! Symfony Blog</h1>
-                    <hr class="small">
-                    <span class="subheading">We love make things</span>
-                                        <br>
-                    <span class="meta">Photo by
-                                                <a href="https://flic.kr/p/bCtQsy">Nuwandalice</a>
-                                                            </div>
+                <div class="post-heading">
+                    <h1>Toml 1.0.0 is out</h1>
+                                        <span class="meta">Posted by  on November 19th, 2017</span>
+                                    </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<div class="post-preview">
-    <a href="http://blog.yosymfony.com/publicar-un-componente-php-con-composer">
-                <h2 class="post-title">
-            Publicar un componente PHP con Composer
-        </h2>
-            </a>
-    <p class="post-meta">Posted by victor on May 26th, 2013</p>
-</div>
-<hr>
-<div class="post-preview">
-    <a href="http://blog.yosymfony.com/symfony-case-studies-youporn">
-                <h2 class="post-title">
-            Symfony Case studies: Youporn
-        </h2>
-            </a>
-    <p class="post-meta">Posted by victor on May 19th, 2013</p>
-</div>
-<hr>
-<div class="post-preview">
-    <a href="http://blog.yosymfony.com/yosymfonytoml-parser-php-para-el-formato-toml-de-ficheros-de-configuracion">
-                <h2 class="post-title">
-            yosymfony/toml: Parser PHP para el formato TOML de ficheros de configuración
-        </h2>
-            </a>
-    <p class="post-meta">Posted by victor on May 14th, 2013</p>
-</div>
-<hr>
-<div class="post-preview">
-    <a href="http://blog.yosymfony.com/php-5-5-rc1-y-actualizaciones-en-las-ramas-5-3-x-y-5-4-x">
-                <h2 class="post-title">
-            PHP 5.5 RC1 y actualizaciones en las ramas 5.3.x y 5.4.x
-        </h2>
-            </a>
-    <p class="post-meta">Posted by victor on May 9th, 2013</p>
-</div>
-<hr>
-<div class="post-preview">
-    <a href="http://blog.yosymfony.com/symfony-y-el-cambio-de-licencia-de-swift-mailer">
-                <h2 class="post-title">
-            Symfony y el cambio de licencia de SwiftMailer
-        </h2>
-            </a>
-    <p class="post-meta">Posted by victor on May 7th, 2013</p>
-</div>
-<hr>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-    <ul class="pager">
-					<li class="previous">
-                <a href="http://blog.yosymfony.com/page6">
-                     &larr; Newer Posts
-                </a>
-            </li>
-		
-					<li class="next">
-				<a href="http://blog.yosymfony.com/page8">
-                    Older Posts &rarr;
-                </a>
-			</li>
-			</ul>
+				<p>A new version of Toml parser has been released. The main feature of this release
+is that the parser has been rewritten from scratch for PHP 7.1 and using
+<a href="https://github.com/yosymfony/parser-utils"><code>parser-utils</code></a>, a set of utilities
+for writing recursive descent parsers. The support for previous versions of PHP
+has been abandoned.</p>
 
-		</div>
-	</div>
-</div>
+<h2>The changelog</h2>
+
+<ul>
+<li>The code has been rewritten from scratch for <strong>PHP 7.1</strong>.</li>
+<li>The method <code>parse</code> from <code>Toml</code> class must only be applied to TOML strings.
+In case of parsing a TOML filename use the new method <code>parseFile</code>.</li>
+<li>Methods <code>parse</code> and <code>parseFile</code> from <code>Toml</code> class accept a new argument <code>resultAsObject</code>
+(optional) to return the parsed input as an object (an instance of <code>stdClass</code>).</li>
+<li>The method <code>addGroup</code> of <code>TomlBuilder</code> class has been deleted.</li>
+<li>The exceptions have been refactored, so the classes <code>ExceptionInterface</code>,
+<code>LexerException</code> and <code>RuntimeException</code> have been removed.</li>
+<li>Added the inner exception when a <code>ParseException</code> is thrown in method <code>parse</code> of class <code>Toml</code>.</li>
+<li>Fixed bug #13: "Inline sub-tables don't work".</li>
+<li>Fixed bug #12: "Does not parse a table with an array of tables".</li>
+<li>Better support for dates as specified in the latest TOML spec. See PR #11.</li>
+</ul>
+
+
+                <section class="post-meta">
+                                        <ul class="list-unstyled">
+                                                    <li>
+                                <i class="fa fa-tags"></i>
+                                                                    <a href="http://blog.yosymfony.com/./tags/parser">parser</a>,                                                                    <a href="http://blog.yosymfony.com/./tags/toml">toml</a>                                                            </li>
+                                                                            <li>
+                                <i class="fa fa-folder"></i>
+                                                                    <a href="http://blog.yosymfony.com/./categories/php">php</a>                                                            </li>
+                                            </ul>
+                                    </section>
+
+                <hr>
+
+                                <section>
+                    <h3>Comments</h3>
+                    <div id="disqus_thread"></div>
+                    <noscript>
+                        Please enable JavaScript to view the
+                        <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                    </noscript>
+                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
 
 <hr>
-
 
     <!-- Footer -->
 <footer>
@@ -229,6 +213,15 @@
         ga('send', 'pageview');
     </script>
     
+                <script type="text/javascript">
+            var disqus_shortname = 'yosymfony';
+
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
     
 </body>
 
